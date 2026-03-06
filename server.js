@@ -224,7 +224,7 @@ app.get('/api/products/:id', (req, res) => {
     for (const [category, products] of Object.entries(electronicsData)) {
         const product = products.find(p => String(p.id) === String(id));
         if (product) {
-            foundProduct = product;
+            foundProduct = { ...product }; // Create a copy
             foundCategory = category;
             break;
         }
@@ -237,13 +237,13 @@ app.get('/api/products/:id', (req, res) => {
         });
     }
 
+    // Add category to product object
+    foundProduct.category = foundCategory;
+
     res.status(200).json({
         success: true,
         message: 'Product details fetched successfully',
-        product: {
-            ...foundProduct,
-            category: foundCategory
-        }
+        product: foundProduct
     });
 });
 
