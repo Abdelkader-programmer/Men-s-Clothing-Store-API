@@ -192,6 +192,92 @@ app.get('/api/products/search', (req, res) => {
     });
 });
 
+// ---------- GET FEATURED PRODUCTS ----------
+app.get('/api/products/featured', (req, res) => {
+    const allProducts = Object.values(electronicsData).flat();
+    
+    // Latest models (2026)
+    const latestModels = [...allProducts]
+        .filter(p => p.model === 2026)
+        .slice(0, 10);
+    
+    // Most expensive products
+    const premiumProducts = [...allProducts]
+        .sort((a, b) => b.price - a.price)
+        .slice(0, 10);
+    
+    // Recently added (based on createdAt)
+    const newArrivals = [...allProducts]
+        .filter(p => p.createdAt)
+        .sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt))
+        .slice(0, 10);
+
+    res.status(200).json({
+        success: true,
+        featured: {
+            latestModels,
+            premiumProducts,
+            newArrivals
+        }
+    });
+});
+
+// ---------- GET RANDOM PRODUCTS ----------
+app.get('/api/products/random', (req, res) => {
+    const count = parseInt(req.query.count) || 5;
+    const allProducts = Object.values(electronicsData).flat();
+    
+    // Shuffle array and get random products
+    const shuffled = [...allProducts].sort(() => 0.5 - Math.random());
+    const randomProducts = shuffled.slice(0, count);
+
+    res.status(200).json({
+        success: true,
+        info: {
+            totalProducts: allProducts.length,
+            randomCount: randomProducts.length
+        },
+        results: randomProducts
+    });
+});
+
+// ---------- GET SIMILAR PRODUCTS ----------
+app.get('/api/products/similar/:id', (req, res) => {
+    const id = req.params.id;
+    let foundProduct = null;
+    let foundCategory = null;
+
+    // Find the product
+    for (const [category, products] of Object.entries(electronicsData)) {
+        const product = products.find(p => String(p.id) === String(id));
+        if (product) {
+            foundProduct = product;
+            foundCategory = category;
+            break;
+        }
+    }
+
+    if (!foundProduct) {
+        return res.status(404).json({ 
+            success: false,
+            message: `Product with ID [${id}] not found.`
+        });
+    }
+
+    // Get products from same category (excluding the current product)
+    const similarProducts = electronicsData[foundCategory]
+        .filter(p => String(p.id) !== String(id))
+        .slice(0, 5);
+
+    res.status(200).json({
+        success: true,
+        currentProduct: foundProduct.title,
+        category: foundCategory,
+        similarCount: similarProducts.length,
+        results: similarProducts
+    });
+});
+
 // ---------- GET PRODUCTS BY CATEGORY ----------
 app.get('/api/products/category/:category', (req, res) => {
     const category = req.params.category.toLowerCase().trim();
@@ -312,92 +398,6 @@ app.get('/api/categories', (req, res) => {
             timestamp: new Date().toISOString()
         },
         categories
-    });
-});
-
-// ---------- GET FEATURED PRODUCTS ----------
-app.get('/api/products/featured', (req, res) => {
-    const allProducts = Object.values(electronicsData).flat();
-    
-    // Latest models (2026)
-    const latestModels = [...allProducts]
-        .filter(p => p.model === 2026)
-        .slice(0, 10);
-    
-    // Most expensive products
-    const premiumProducts = [...allProducts]
-        .sort((a, b) => b.price - a.price)
-        .slice(0, 10);
-    
-    // Recently added (based on createdAt)
-    const newArrivals = [...allProducts]
-        .filter(p => p.createdAt)
-        .sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt))
-        .slice(0, 10);
-
-    res.status(200).json({
-        success: true,
-        featured: {
-            latestModels,
-            premiumProducts,
-            newArrivals
-        }
-    });
-});
-
-// ---------- GET RANDOM PRODUCTS ----------
-app.get('/api/products/random', (req, res) => {
-    const count = parseInt(req.query.count) || 5;
-    const allProducts = Object.values(electronicsData).flat();
-    
-    // Shuffle array and get random products
-    const shuffled = [...allProducts].sort(() => 0.5 - Math.random());
-    const randomProducts = shuffled.slice(0, count);
-
-    res.status(200).json({
-        success: true,
-        info: {
-            totalProducts: allProducts.length,
-            randomCount: randomProducts.length
-        },
-        results: randomProducts
-    });
-});
-
-// ---------- GET SIMILAR PRODUCTS ----------
-app.get('/api/products/similar/:id', (req, res) => {
-    const id = req.params.id;
-    let foundProduct = null;
-    let foundCategory = null;
-
-    // Find the product
-    for (const [category, products] of Object.entries(electronicsData)) {
-        const product = products.find(p => String(p.id) === String(id));
-        if (product) {
-            foundProduct = product;
-            foundCategory = category;
-            break;
-        }
-    }
-
-    if (!foundProduct) {
-        return res.status(404).json({ 
-            success: false,
-            message: `Product with ID [${id}] not found.`
-        });
-    }
-
-    // Get products from same category (excluding the current product)
-    const similarProducts = electronicsData[foundCategory]
-        .filter(p => String(p.id) !== String(id))
-        .slice(0, 5);
-
-    res.status(200).json({
-        success: true,
-        currentProduct: foundProduct.title,
-        category: foundCategory,
-        similarCount: similarProducts.length,
-        results: similarProducts
     });
 });
 
