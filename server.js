@@ -265,6 +265,7 @@ app.get('/api/products/stats', (req, res) => {
         
         // Category statistics
         const categoryStats = Object.entries(electronicsData).map(([category, products]) => {
+            if (!Array.isArray(products)) return null;
             const validPrices = products.map(p => p.price).filter(p => p != null && !isNaN(p) && p > 0);
             const avg = validPrices.length > 0 ? validPrices.reduce((sum, p) => sum + p, 0) / validPrices.length : 0;
             return {
@@ -272,7 +273,7 @@ app.get('/api/products/stats', (req, res) => {
                 count: products.length,
                 avgPrice: parseFloat(avg.toFixed(2))
             };
-        });
+        }).filter(Boolean);
 
         res.status(200).json({
             success: true,
