@@ -241,6 +241,58 @@ app.get('/api/products/random', (req, res) => {
     });
 });
 
+// ---------- GET PRODUCTS STATISTICS ----------
+app.get('/api/products/stats', (req, res) => {
+    const allProducts = Object.values(electronicsData).flat();
+    
+    // Price statistics
+    const prices = allProducts.map(p => p.price);
+    const minPrice = Math.min(...prices);
+    const maxPrice = Math.max(...prices);
+    const avgPrice = prices.reduce((a, b) => a + b, 0) / prices.length;
+    
+    // Model year statistics
+    const models = allProducts.map(p => p.model);
+    const uniqueModels = [...new Set(models)];
+    
+    // Color statistics
+    const colors = allProducts.map(p => p.color?.toLowerCase()).filter(Boolean);
+    const colorCount = {};
+    colors.forEach(color => {
+        colorCount[color] = (colorCount[color] || 0) + 1;
+    });
+    
+    // Category statistics
+    const categoryStats = Object.entries(electronicsData).map(([category, products]) => ({
+        category,
+        count: products.length,
+        avgPrice: products.reduce((sum, p) => sum + p.price, 0) / products.length
+    }));
+
+    res.status(200).json({
+        success: true,
+        stats: {
+            totalProducts: allProducts.length,
+            totalCategories: Object.keys(electronicsData).length,
+            priceRange: {
+                min: minPrice,
+                max: maxPrice,
+                average: parseFloat(avgPrice.toFixed(2))
+            },
+            modelYears: {
+                available: uniqueModels.sort((a, b) => b - a),
+                latest: Math.max(...uniqueModels),
+                oldest: Math.min(...uniqueModels)
+            },
+            topColors: Object.entries(colorCount)
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 5)
+                .map(([color, count]) => ({ color, count })),
+            categoryBreakdown: categoryStats
+        }
+    });
+});
+
 // ---------- GET SIMILAR PRODUCTS ----------
 app.get('/api/products/similar/:id', (req, res) => {
     const id = req.params.id;
@@ -398,58 +450,6 @@ app.get('/api/categories', (req, res) => {
             timestamp: new Date().toISOString()
         },
         categories
-    });
-});
-
-// ---------- GET PRODUCTS STATISTICS ----------
-app.get('/api/products/stats', (req, res) => {
-    const allProducts = Object.values(electronicsData).flat();
-    
-    // Price statistics
-    const prices = allProducts.map(p => p.price);
-    const minPrice = Math.min(...prices);
-    const maxPrice = Math.max(...prices);
-    const avgPrice = prices.reduce((a, b) => a + b, 0) / prices.length;
-    
-    // Model year statistics
-    const models = allProducts.map(p => p.model);
-    const uniqueModels = [...new Set(models)];
-    
-    // Color statistics
-    const colors = allProducts.map(p => p.color?.toLowerCase()).filter(Boolean);
-    const colorCount = {};
-    colors.forEach(color => {
-        colorCount[color] = (colorCount[color] || 0) + 1;
-    });
-    
-    // Category statistics
-    const categoryStats = Object.entries(electronicsData).map(([category, products]) => ({
-        category,
-        count: products.length,
-        avgPrice: products.reduce((sum, p) => sum + p.price, 0) / products.length
-    }));
-
-    res.status(200).json({
-        success: true,
-        stats: {
-            totalProducts: allProducts.length,
-            totalCategories: Object.keys(electronicsData).length,
-            priceRange: {
-                min: minPrice,
-                max: maxPrice,
-                average: parseFloat(avgPrice.toFixed(2))
-            },
-            modelYears: {
-                available: uniqueModels.sort((a, b) => b - a),
-                latest: Math.max(...uniqueModels),
-                oldest: Math.min(...uniqueModels)
-            },
-            topColors: Object.entries(colorCount)
-                .sort((a, b) => b[1] - a[1])
-                .slice(0, 5)
-                .map(([color, count]) => ({ color, count })),
-            categoryBreakdown: categoryStats
-        }
     });
 });
 
