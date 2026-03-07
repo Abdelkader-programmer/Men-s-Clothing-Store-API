@@ -246,13 +246,13 @@ app.get('/api/products/stats', (req, res) => {
     const allProducts = Object.values(electronicsData).flat();
     
     // Price statistics
-    const prices = allProducts.map(p => p.price);
-    const minPrice = Math.min(...prices);
-    const maxPrice = Math.max(...prices);
-    const avgPrice = prices.reduce((a, b) => a + b, 0) / prices.length;
+    const prices = allProducts.map(p => p.price).filter(p => p != null && !isNaN(p));
+    const minPrice = prices.length > 0 ? Math.min(...prices) : 0;
+    const maxPrice = prices.length > 0 ? Math.max(...prices) : 0;
+    const avgPrice = prices.length > 0 ? prices.reduce((a, b) => a + b, 0) / prices.length : 0;
     
     // Model year statistics
-    const models = allProducts.map(p => p.model);
+    const models = allProducts.map(p => p.model).filter(m => m != null && !isNaN(m));
     const uniqueModels = [...new Set(models)];
     
     // Color statistics
@@ -263,11 +263,14 @@ app.get('/api/products/stats', (req, res) => {
     });
     
     // Category statistics
-    const categoryStats = Object.entries(electronicsData).map(([category, products]) => ({
-        category,
-        count: products.length,
-        avgPrice: products.reduce((sum, p) => sum + p.price, 0) / products.length
-    }));
+    const categoryStats = Object.entries(electronicsData).map(([category, products]) => {
+        const validPrices = products.map(p => p.price).filter(p => p != null && !isNaN(p));
+        return {
+            category,
+            count: products.length,
+            avgPrice: validPrices.length > 0 ? parseFloat((validPrices.reduce((sum, p) => sum + p, 0) / validPrices.length).toFixed(2)) : 0
+        };
+    });
 
     res.status(200).json({
         success: true,
@@ -281,8 +284,8 @@ app.get('/api/products/stats', (req, res) => {
             },
             modelYears: {
                 available: uniqueModels.sort((a, b) => b - a),
-                latest: Math.max(...uniqueModels),
-                oldest: Math.min(...uniqueModels)
+                latest: uniqueModels.length > 0 ? Math.max(...uniqueModels) : 0,
+                oldest: uniqueModels.length > 0 ? Math.min(...uniqueModels) : 0
             },
             topColors: Object.entries(colorCount)
                 .sort((a, b) => b[1] - a[1])
