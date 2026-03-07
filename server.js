@@ -243,57 +243,67 @@ app.get('/api/products/random', (req, res) => {
 
 // ---------- GET PRODUCTS STATISTICS ----------
 app.get('/api/products/stats', (req, res) => {
-    const allProducts = Object.values(electronicsData).flat();
-    
-    // Price statistics
-    const prices = allProducts.map(p => p.price).filter(p => p != null && !isNaN(p));
-    const minPrice = prices.length > 0 ? Math.min(...prices) : 0;
-    const maxPrice = prices.length > 0 ? Math.max(...prices) : 0;
-    const avgPrice = prices.length > 0 ? prices.reduce((a, b) => a + b, 0) / prices.length : 0;
-    
-    // Model year statistics
-    const models = allProducts.map(p => p.model).filter(m => m != null && !isNaN(m));
-    const uniqueModels = [...new Set(models)];
-    
-    // Color statistics
-    const colors = allProducts.map(p => p.color?.toLowerCase()).filter(Boolean);
-    const colorCount = {};
-    colors.forEach(color => {
-        colorCount[color] = (colorCount[color] || 0) + 1;
-    });
-    
-    // Category statistics
-    const categoryStats = Object.entries(electronicsData).map(([category, products]) => {
-        const validPrices = products.map(p => p.price).filter(p => p != null && !isNaN(p));
-        return {
-            category,
-            count: products.length,
-            avgPrice: validPrices.length > 0 ? parseFloat((validPrices.reduce((sum, p) => sum + p, 0) / validPrices.length).toFixed(2)) : 0
-        };
-    });
+    try {
+        const allProducts = Object.values(electronicsData).flat();
+        
+        // Price statistics
+        const prices = allProducts.map(p => p.price).filter(p => p != null && !isNaN(p) && p > 0);
+        const minPrice = prices.length > 0 ? Math.min(...prices) : 0;
+        const maxPrice = prices.length > 0 ? Math.max(...prices) : 0;
+        const avgPrice = prices.length > 0 ? prices.reduce((a, b) => a + b, 0) / prices.length : 0;
+        
+        // Model year statistics
+        const models = allProducts.map(p => p.model).filter(m => m != null && !isNaN(m));
+        const uniqueModels = [...new Set(models)];
+        
+        // Color statistics
+        const colors = allProducts.map(p => p.color?.toLowerCase()).filter(Boolean);
+        const colorCount = {};
+        colors.forEach(color => {
+            colorCount[color] = (colorCount[color] || 0) + 1;
+        });
+        
+        // Category statistics
+        const categoryStats = Object.entries(electronicsData).map(([category, products]) => {
+            const validPrices = products.map(p => p.price).filter(p => p != null && !isNaN(p) && p > 0);
+            const avg = validPrices.length > 0 ? validPrices.reduce((sum, p) => sum + p, 0) / validPrices.length : 0;
+            return {
+                category,
+                count: products.length,
+                avgPrice: parseFloat(avg.toFixed(2))
+            };
+        });
 
-    res.status(200).json({
-        success: true,
-        stats: {
-            totalProducts: allProducts.length,
-            totalCategories: Object.keys(electronicsData).length,
-            priceRange: {
-                min: minPrice,
-                max: maxPrice,
-                average: parseFloat(avgPrice.toFixed(2))
-            },
-            modelYears: {
-                available: uniqueModels.sort((a, b) => b - a),
-                latest: uniqueModels.length > 0 ? Math.max(...uniqueModels) : 0,
-                oldest: uniqueModels.length > 0 ? Math.min(...uniqueModels) : 0
-            },
-            topColors: Object.entries(colorCount)
-                .sort((a, b) => b[1] - a[1])
-                .slice(0, 5)
-                .map(([color, count]) => ({ color, count })),
-            categoryBreakdown: categoryStats
-        }
-    });
+        res.status(200).json({
+            success: true,
+            stats: {
+                totalProducts: allProducts.length,
+                totalCategories: Object.keys(electronicsData).length,
+                priceRange: {
+                    min: minPrice,
+                    max: maxPrice,
+                    average: parseFloat(avgPrice.toFixed(2))
+                },
+                modelYears: {
+                    available: uniqueModels.sort((a, b) => b - a),
+                    latest: uniqueModels.length > 0 ? Math.max(...uniqueModels) : 0,
+                    oldest: uniqueModels.length > 0 ? Math.min(...uniqueModels) : 0
+                },
+                topColors: Object.entries(colorCount)
+                    .sort((a, b) => b[1] - a[1])
+                    .slice(0, 5)
+                    .map(([color, count]) => ({ color, count })),
+                categoryBreakdown: categoryStats
+            }
+        });
+    } catch (error) {
+        console.error('Stats error:', error);
+        res.status(500).json({
+            success: false,
+            message: 'Error generating statistics',
+            error: error.message
+        });
+    }
 });
 
 // ---------- FILTER PRODUCTS WITH MULTIPLE OPTIONS ----------
