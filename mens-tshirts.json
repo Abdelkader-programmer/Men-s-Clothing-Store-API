@@ -1,0 +1,475 @@
+[
+  {
+    "id": 1,
+    "title": "Classic T-Shirt",
+    "description": "Men's 100% cotton t-shirt, comfortable for daily wear, perfect for summer",
+    "price": 150,
+    "color": "White",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Summer",
+    "material": "100% Cotton",
+    "model": 2025,
+    "category": "mens-tshirts",
+    "stock": 50,
+    "image": "https://i.pinimg.com/736x/c3/6c/a6/c36ca6099db7297a3d42c2f9d34f267c.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Classic T-Shirt",
+    "description": "Men's 100% cotton t-shirt in elegant black, ideal for summer",
+    "price": 150,
+    "color": "Black",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Summer",
+    "material": "100% Cotton",
+    "model": 2025,
+    "category": "mens-tshirts",
+    "stock": 45,
+    "image": "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/C04288s10.jpg?im=Resize,width=750"
+  },
+  {
+    "id": 3,
+    "title": "Summer Polo T-Shirt",
+    "description": "Men's polo t-shirt with collar and buttons, premium cotton for summer",
+    "price": 220,
+    "color": "Blue",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Summer",
+    "material": "Pique Cotton",
+    "model": 2025,
+    "category": "mens-tshirts",
+    "stock": 30,
+    "image": "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/K90240s6.jpg?im=Resize,width=750"
+  },
+  {
+    "id": 4,
+    "title": "Summer Sports T-Shirt",
+    "description": "Lightweight sports t-shirt, suitable for workouts and summer",
+    "price": 180,
+    "color": "Gray",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "season": "Summer",
+    "material": "Sports Polyester",
+    "model": 2025,
+    "category": "mens-tshirts",
+    "stock": 40,
+    "image": "https://i5.walmartimages.com/asr/769fcb3e-b446-4646-9202-ae86975bd983.6812c54c3de492d88f7b8afb9ace197d.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
+  },
+  {
+    "id": 5,
+    "title": "Summer V-Neck T-Shirt",
+    "description": "T-shirt with elegant V-neck, soft cotton for summer",
+    "price": 165,
+    "color": "Navy",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Summer",
+    "material": "100% Cotton",
+    "model": 2025,
+    "category": "mens-tshirts",
+    "stock": 35,
+    "image": "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/107259s5.jpg?im=Resize,width=750"
+  },
+  {
+    "id": 6,
+    "title": "Summer Printed T-Shirt",
+    "description": "Cotton t-shirt with modern print, perfect for summer",
+    "price": 190,
+    "color": "White",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "season": "Summer",
+    "material": "100% Cotton",
+    "model": 2026,
+    "category": "mens-tshirts",
+    "stock": 25,
+    "image": "https://cdn.yoursclothing.com/Images/ProductImages/Big/1e3fda8f-5dcd-46_322598_X.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Summer Pocket T-Shirt",
+    "description": "Casual t-shirt with front pocket, lightweight cotton for summer",
+    "price": 175,
+    "color": "Beige",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Summer",
+    "material": "100% Cotton",
+    "model": 2025,
+    "category": "mens-tshirts",
+    "stock": 30,
+    "image": "https://www.gap.com/webcontent/0056/647/757/cn56647757.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Summer Oversized T-Shirt",
+    "description": "Modern oversized t-shirt, comfortable cotton for summer",
+    "price": 200,
+    "color": "Olive Green",
+    "size": [
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Summer",
+    "material": "100% Cotton",
+    "model": 2026,
+    "category": "mens-tshirts",
+    "stock": 20,
+    "image": "https://slatehash.com/cdn/shop/files/VG-SH-46203005.jpg?v=1686386121"
+  },
+  {
+    "id": 9,
+    "title": "Summer Striped T-Shirt",
+    "description": "T-shirt with classic horizontal stripes, cotton for summer",
+    "price": 185,
+    "color": "White & Navy",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "season": "Summer",
+    "material": "100% Cotton",
+    "model": 2025,
+    "category": "mens-tshirts",
+    "stock": 28,
+    "image": "https://i.etsystatic.com/18628324/r/il/2a6291/5017894471/il_570xN.5017894471_lpod.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Summer Polo T-Shirt",
+    "description": "Classic black polo t-shirt, elegant and comfortable for summer",
+    "price": 220,
+    "color": "Black",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Summer",
+    "material": "Pique Cotton",
+    "model": 2025,
+    "category": "mens-tshirts",
+    "stock": 32,
+    "image": "https://dqp736wsu6w3m.cloudfront.net/s3bucket/og/feed/img/man_polo/1149765/without_model_small.png"
+  },
+  {
+    "id": 11,
+    "title": "Winter Thick T-Shirt",
+    "description": "Thick cotton t-shirt for winter, warm and comfortable",
+    "price": 250,
+    "color": "Black",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Winter",
+    "material": "Thick Cotton",
+    "model": 2025,
+    "category": "mens-tshirts",
+    "stock": 35,
+    "image": "https://www.qhauk.com/cdn/shop/files/pic1_8eda48bb-02ca-4004-864a-0afc6037b131.jpg?v=1765312333&width=3840"
+  },
+  {
+    "id": 12,
+    "title": "Winter High Neck T-Shirt",
+    "description": "T-shirt with high neck for winter, warm cotton",
+    "price": 280,
+    "color": "Gray",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "season": "Winter",
+    "material": "Thick Cotton",
+    "model": 2025,
+    "category": "mens-tshirts",
+    "stock": 25,
+    "image": "https://www.celio.com/dw/image/v2/BGBR_PRD/on/demandware.static/-/Sites-celio-master/default/dw882275a4/hi-res/183335-2216-WMETMLRL2_GREYMEL-WEB3-7.jpg?sw=960&sh=1234&q=85"
+  },
+  {
+    "id": 13,
+    "title": "Winter Long Sleeve T-Shirt",
+    "description": "Long sleeve t-shirt for winter, premium cotton",
+    "price": 270,
+    "color": "Navy",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Winter",
+    "material": "Thick Cotton",
+    "model": 2025,
+    "category": "mens-tshirts",
+    "stock": 30,
+    "image": "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/153265s9.jpg?im=Resize,width=750"
+  },
+  {
+    "id": 14,
+    "title": "Winter Hoodie T-Shirt",
+    "description": "T-shirt with hood (hoodie) for winter, very warm",
+    "price": 320,
+    "color": "Brown",
+    "size": [
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Winter",
+    "material": "Cotton & Polyester",
+    "model": 2026,
+    "category": "mens-tshirts",
+    "stock": 20,
+    "image": "https://tree-stores.com/cdn/shop/files/Gemini_Generated_Image_dzzctedzzctedzzc.png?v=1770467583&width=533"
+  },
+  {
+    "id": 15,
+    "title": "Winter Plain T-Shirt",
+    "description": "Winter t-shirt in elegant burgundy, thick cotton",
+    "price": 260,
+    "color": "Burgundy",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Winter",
+    "material": "Thick Cotton",
+    "model": 2025,
+    "category": "mens-tshirts",
+    "stock": 28,
+    "image": "https://pitshirts.in/cdn/shop/files/InShot-20241122_175858295.jpg?v=1732278674"
+  },
+  {
+    "id": 16,
+    "title": "Winter Zip T-Shirt",
+    "description": "T-shirt with front zipper for winter, practical and warm",
+    "price": 300,
+    "color": "Black",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Winter",
+    "material": "Cotton & Polyester",
+    "model": 2026,
+    "category": "mens-tshirts",
+    "stock": 22,
+    "image": "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/N78176s6.jpg?im=Resize,width=750"
+  },
+  {
+    "id": 17,
+    "title": "Winter Sports T-Shirt",
+    "description": "Winter sports t-shirt with long sleeves, suitable for workouts",
+    "price": 290,
+    "color": "Dark Gray",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "season": "Winter",
+    "material": "Thermal Polyester",
+    "model": 2025,
+    "category": "mens-tshirts",
+    "stock": 26,
+    "image": "https://mrsg-live.cdn.scayle.cloud/images/d74d662dad2d9822d51bc9b3a4c65343.jpeg?width=1800"
+  },
+  {
+    "id": 18,
+    "title": "Winter Pockets T-Shirt",
+    "description": "Winter t-shirt with side pockets, practical and elegant",
+    "price": 310,
+    "color": "Dark Green",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Winter",
+    "material": "Thick Cotton",
+    "model": 2026,
+    "category": "mens-tshirts",
+    "stock": 18,
+    "image": "https://img01.ztat.net/article/spp-media-p1/c742dd052ac14c1993063b830e401f08/2b21124cb08f4c228b378859e76e6eba.png?imwidth=1800&filter=packshot"
+  },
+  {
+    "id": 19,
+    "title": "Winter Polo Collar T-Shirt",
+    "description": "Winter polo t-shirt with long sleeves, elegant and warm",
+    "price": 295,
+    "color": "Navy",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Winter",
+    "material": "Thick Pique Cotton",
+    "model": 2025,
+    "category": "mens-tshirts",
+    "stock": 24,
+    "image": "https://www.mcs.com/cdn/shop/files/MCS-Polo-Uomo_13MPS021-03302-704_1_1b09d55f-aa73-467e-b7ba-4e8830892fda.jpg?v=1771592546"
+  },
+  {
+    "id": 20,
+    "title": "Winter Lined T-Shirt",
+    "description": "T-shirt lined from inside for winter, very warm",
+    "price": 330,
+    "color": "Light Gray",
+    "size": [
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Winter",
+    "material": "Lined Cotton",
+    "model": 2026,
+    "category": "mens-tshirts",
+    "stock": 15,
+    "image": "https://cdnp.sanmar.com/medias/sys_master/images/h74/h18/28214582837278/1200W_60391_LightGrey-12-CS440LSHLightGreyFlatFront/1200W-60391-LightGrey-12-CS440LSHLightGreyFlatFront.jpg"
+  },
+  {
+    "id": 21,
+    "title": "Winter Sweatshirt T-Shirt",
+    "description": "Classic winter sweatshirt, warm and comfortable for cold days",
+    "price": 350,
+    "color": "Charcoal Gray",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Winter",
+    "material": "Cotton Fleece",
+    "model": 2026,
+    "category": "mens-tshirts",
+    "stock": 30,
+    "image": "https://hoodiesliban.com/cdn/shop/files/WhatsAppImage2024-12-25at8.48.02PM.jpg?v=1735152583"
+  },
+  {
+    "id": 22,
+    "title": "Winter Sweatshirt T-Shirt",
+    "description": "Hooded sweatshirt with front pocket, perfect for winter",
+    "price": 380,
+    "color": "White",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Winter",
+    "material": "Cotton Fleece",
+    "model": 2026,
+    "category": "mens-tshirts",
+    "stock": 25,
+    "image": "https://image.hm.com/assets/hm/42/ff/42ffc9b4916fd994d09200a00be2fb8f939e9704.jpg?imwidth=768"
+  },
+  {
+    "id": 23,
+    "title": "Winter Sweatshirt T-Shirt",
+    "description": "Crew neck sweatshirt, thick and warm for winter",
+    "price": 340,
+    "color": "Navy Blue",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "season": "Winter",
+    "material": "Cotton Fleece",
+    "model": 2025,
+    "category": "mens-tshirts",
+    "stock": 28,
+    "image": "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/161901s.jpg"
+  },
+  {
+    "id": 24,
+    "title": "Winter Sweatshirt T-Shirt",
+    "description": "Stylish maroon sweatshirt, comfortable and warm",
+    "price": 360,
+    "color": "Maroon",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Winter",
+    "material": "Cotton Fleece",
+    "model": 2026,
+    "category": "mens-tshirts",
+    "stock": 22,
+    "image": "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/F41571s6.jpg?im=Resize,width=750"
+  },
+  {
+    "id": 25,
+    "title": "Winter Sweatshirt T-Shirt",
+    "description": "Zip-up sweatshirt with pockets, practical for winter",
+    "price": 390,
+    "color": "Dark Green",
+    "size": [
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Winter",
+    "material": "Cotton Fleece",
+    "model": 2026,
+    "category": "mens-tshirts",
+    "stock": 20,
+    "image": "https://i5.walmartimages.com/asr/e169ae47-094f-4c1e-a8b2-aaad55b91258.683bce30a91415218c2060022e2c64ed.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
+  }
+]

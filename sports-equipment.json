@@ -1,0 +1,417 @@
+[
+  {
+    "id": 1,
+    "title": "Black Sports Shorts",
+    "description": "Comfortable black sports shorts for training and matches",
+    "price": 150,
+    "color": "Black",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Polyester",
+    "model": 2025,
+    "category": "sports-shorts",
+    "stock": 50,
+    "image": "https://y1sport.com/cdn/shop/products/BlackShort_Crop_4cd0873e-3999-41b0-b74b-32636e3a1691_1500x.jpg?v=1737129459"
+  },
+  {
+    "id": 2,
+    "title": "Navy",
+    "description": "Navy blue sports shorts with elastic waistband",
+    "price": 150,
+    "color": "Navy Blue",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Polyester",
+    "model": 2025,
+    "category": "sports-shorts",
+    "stock": 45,
+    "image": "https://avecsport.com/images/thumbs/0020864_focus-classic-short-navy.jpeg"
+  },
+  {
+    "id": 3,
+    "title": "Red Sports Shorts",
+    "description": "Bright red sports shorts for football training",
+    "price": 150,
+    "color": "Red",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Polyester",
+    "model": 2025,
+    "category": "sports-shorts",
+    "stock": 40,
+    "image": "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/Q90677s.jpg?im=Resize,width=750"
+  },
+  {
+    "id": 4,
+    "title": "White Sports Shorts",
+    "description": "Classic white sports shorts for matches",
+    "price": 150,
+    "color": "White",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Polyester",
+    "model": 2025,
+    "category": "sports-shorts",
+    "stock": 45,
+    "image": "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/474609s4.jpg?im=Resize,width=750"
+  },
+  {
+    "id": 5,
+    "title": "Gray Sports Shorts",
+    "description": "Modern gray sports shorts with side pockets",
+    "price": 150,
+    "color": "Gray",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Polyester",
+    "model": 2025,
+    "category": "sports-shorts",
+    "stock": 40,
+    "image": "https://www.laspeedy.com/cdn/shop/files/MSP_GRY_FRAMED_SHOP.jpg?v=1684357344"
+  },
+  {
+    "id": 6,
+    "title": "Nike Mercurial Vapor 15",
+    "description": "Professional football boots with speed technology",
+    "price": 1200,
+    "color": "Black & Orange",
+    "size": [
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "season": "All Season",
+    "material": "Synthetic Leather",
+    "model": 2025,
+    "category": "football-boots",
+    "stock": 25,
+    "image": "https://thumblr.uniid.it/product/338698/3b880b911027.jpg?width=3840&format=webp&q=75"
+  },
+  {
+    "id": 7,
+    "title": "Adidas Predator Elite",
+    "description": "Elite football boots with control technology",
+    "price": 1200,
+    "color": "White & Blue",
+    "size": [
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "season": "All Season",
+    "material": "Synthetic Leather",
+    "model": 2025,
+    "category": "football-boots",
+    "stock": 25,
+    "image": "https://cdn.salla.sa/YzQja/1d356994-3e58-462e-9caa-a3ef7687d533-1000x1000-qaNOzurBK3DsQ2ELhd72TvVLsrQxgS5i4swlrKTb.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Puma Future Ultimate",
+    "description": "Ultimate football boots with adaptive fit",
+    "price": 1100,
+    "color": "Yellow & Black",
+    "size": [
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "season": "All Season",
+    "material": "Synthetic Leather",
+    "model": 2025,
+    "category": "football-boots",
+    "stock": 20,
+    "image": "https://m.media-amazon.com/images/I/51XUIgWmU6L._AC_SY900_.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Nike Phantom GX Elite",
+    "description": "Elite football boots with precision strike technology",
+    "price": 1200,
+    "color": "Red & Black",
+    "size": [
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "season": "All Season",
+    "material": "Synthetic Leather",
+    "model": 2025,
+    "category": "football-boots",
+    "stock": 22,
+    "image": "https://thumblr.uniid.it/product/291987/11f9e780c5d5.jpg?width=3840&format=webp&q=75"
+  },
+  {
+    "id": 10,
+    "title": "Adidas X Speedportal",
+    "description": "Speed football boots for fast players",
+    "price": 1100,
+    "color": "Green & Black",
+    "size": [
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "season": "All Season",
+    "material": "Synthetic Leather",
+    "model": 2025,
+    "category": "football-boots",
+    "stock": 20,
+    "image": "https://thumblr.uniid.it/product/250668/947188f6a56d.jpg?width=3840&format=webp&q=75"
+  },
+  {
+    "id": 11,
+    "title": "Nike Tiempo Legend 10",
+    "description": "Classic leather football boots for touch and control",
+    "price": 1300,
+    "color": "Black & White",
+    "size": [
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "season": "All Season",
+    "material": "Premium Leather",
+    "model": 2025,
+    "category": "football-boots",
+    "stock": 18,
+    "image": "https://thumblr.uniid.it/product/291911/4e6e95e0564b.jpg?width=3840&format=webp&q=75"
+  },
+  {
+    "id": 12,
+    "title": "Adidas Copa Mundial",
+    "description": "Legendary football boots with kangaroo leather",
+    "price": 1400,
+    "color": "Black & White",
+    "size": [
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "season": "All Season",
+    "material": "Kangaroo Leather",
+    "model": 2025,
+    "category": "football-boots",
+    "stock": 15,
+    "image": "https://www.futbolemotion.com/imagesarticulos/88055/grandes/bota-adidas-copa-mundial-0.webp"
+  },
+  {
+    "id": 13,
+    "title": "Puma King Platinum",
+    "description": "Premium football boots with classic design",
+    "price": 1250,
+    "color": "White & Gold",
+    "size": [
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "season": "All Season",
+    "material": "Premium Leather",
+    "model": 2025,
+    "category": "football-boots",
+    "stock": 18,
+    "image": "https://images-static.nykaa.com/media/catalog/product/0/5/0533ee5pma13777_1.jpg?tr=w-500"
+  },
+  {
+    "id": 14,
+    "title": "Nike Mercurial Superfly 9",
+    "description": "High-top football boots for explosive speed",
+    "price": 1350,
+    "color": "Blue & Silver",
+    "size": [
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "season": "All Season",
+    "material": "Synthetic Leather",
+    "model": 2025,
+    "category": "football-boots",
+    "stock": 20,
+    "image": "https://thumblr.uniid.it/product/144103/b9c7f2b3e193.jpg?width=3840&format=webp&q=75"
+  },
+  {
+    "id": 15,
+    "title": "Adidas Predator Accuracy",
+    "description": "Accurate football boots with strike zone technology",
+    "price": 1000,
+    "color": "Red & White",
+    "size": [
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "season": "All Season",
+    "material": "Synthetic Leather",
+    "model": 2025,
+    "category": "football-boots",
+    "stock": 22,
+    "image": "https://thumblr.uniid.it/product/376713/33f04202b319.jpg?width=3840&format=webp&q=75"
+  },
+  {
+    "id": 16,
+    "title": "Black Football Socks",
+    "description": "Long black football socks with cushioned sole",
+    "price": 50,
+    "color": "Black",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "season": "All Season",
+    "material": "Cotton Blend",
+    "model": 2025,
+    "category": "football-socks",
+    "stock": 100,
+    "image": "https://www.nike.com.kw/dw/image/v2/BDVB_PRD/on/demandware.static/-/Sites-akeneo-master-catalog/default/dw52dfee1d/nk/5be/7/e/7/e/a/5be7e7ea_6287_4d31_a98f_28dbfd19ae88.jpg"
+  },
+  {
+    "id": 17,
+    "title": "White Football Socks",
+    "description": "Long white football socks with arch support",
+    "price": 50,
+    "color": "White",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "season": "All Season",
+    "material": "Cotton Blend",
+    "model": 2025,
+    "category": "football-socks",
+    "stock": 100,
+    "image": "https://www.nike.ae/dw/image/v2/BDVB_PRD/on/demandware.static/-/Sites-akeneo-master-catalog/default/dwe926fa4d/nk/773/c/f/0/2/e/773cf02e_c468_4472_a494_a9aa00bdf8d0.jpg?sw=700&sh=700&sm=fit&q=100&strip=false"
+  },
+  {
+    "id": 18,
+    "title": "Red Football Socks",
+    "description": "Long red football socks with moisture-wicking",
+    "price": 50,
+    "color": "Red",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "season": "All Season",
+    "material": "Cotton Blend",
+    "model": 2025,
+    "category": "football-socks",
+    "stock": 80,
+    "image": "https://www.knvbshop.nl/media/catalog/product/cache/d81c8dc66c69ceb69419c2e7e72e896d/2/1/214022_nike-classic-ii-cushion-otc-team-voetbalkousen-rood_1.jpg"
+  },
+  {
+    "id": 19,
+    "title": "Blue Football Socks",
+    "description": "Long blue football socks with compression fit",
+    "price": 50,
+    "color": "Blue",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "season": "All Season",
+    "material": "Cotton Blend",
+    "model": 2025,
+    "category": "football-socks",
+    "stock": 80,
+    "image": "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/649394s.jpg"
+  },
+  {
+    "id": 20,
+    "title": "Yellow Football Socks",
+    "description": "Long yellow football socks with anti-slip grip",
+    "price": 50,
+    "color": "Yellow",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "season": "All Season",
+    "material": "Cotton Blend",
+    "model": 2025,
+    "category": "football-socks",
+    "stock": 70,
+    "image": "https://www.nike.ae/dw/image/v2/BDVB_PRD/on/demandware.static/-/Sites-akeneo-master-catalog/default/dw498925b5/nk/bd2/6/0/9/c/8/bd2609c8_b7b7_4e13_baf1_131d7493af84.jpg?sw=2000&sh=2000&sm=fit"
+  }
+]

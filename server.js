@@ -17,11 +17,11 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(morgan('dev'));
 
-// ================= Load Electronics Data =================
-const electronicsData = {};
+// ================= Load Clothing Data =================
+const clothingData = {};
 
 try {
-    // قراءة جميع ملفات JSON الخاصة بالمنتجات الإلكترونية
+    // قراءة جميع ملفات JSON الخاصة بالملابس
     const files = fs
         .readdirSync(__dirname)
         .filter(file => file.endsWith('.json') && !file.includes('package'));
@@ -37,11 +37,11 @@ try {
             'utf8'
         );
 
-        electronicsData[categoryName] = JSON.parse(fileContent);
+        clothingData[categoryName] = JSON.parse(fileContent);
         console.log(`✅ ${categoryName} data loaded successfully`);
     });
 
-    console.log(`🎉 Total categories loaded: ${Object.keys(electronicsData).length}`);
+    console.log(`🎉 Total categories loaded: ${Object.keys(clothingData).length}`);
 } catch (error) {
     console.error('❌ Failed to load product data:', error.message);
     process.exit(1);
@@ -52,7 +52,7 @@ try {
 // Welcome page
 app.get('/', (req, res) => {
     res.send(`
-        <h1>🏪 El-Shehawy Electronics Store API</h1>
+        <h1>👔 متجر الشهاوي للملابس الرجالي</h1>
         <p>API is ready! Date: Monday, February 23, 2026</p>
         <h3>Available Endpoints:</h3>
         <ul>
@@ -68,12 +68,28 @@ app.get('/', (req, res) => {
             <li><code>GET /api/products/filter</code> - Filter products</li>
             <li><code>GET /api/products/sort</code> - Sort products</li>
         </ul>
+        <h3>Available Categories:</h3>
+        <ul>
+            <li><code>GET /api/products/category/mens-tshirts</code> - تيشيرتات رجالي (25 منتج)</li>
+            <li><code>GET /api/products/category/mens-shirts</code> - قمصان رجالي (20 منتج)</li>
+            <li><code>GET /api/products/category/mens-pants</code> - بناطيل رجالي (20 منتج)</li>
+            <li><code>GET /api/products/category/mens-suits</code> - بدل رجالي (15 منتج)</li>
+            <li><code>GET /api/products/category/mens-jackets-coats</code> - جواكت ومعاطف (20 منتج)</li>
+            <li><code>GET /api/products/category/mens-shoes</code> - أحذية رجالي (20 منتج)</li>
+            <li><code>GET /api/products/category/mens-sneakers</code> - أحذية رياضية (20 منتج)</li>
+            <li><code>GET /api/products/category/mens-slippers-sandals</code> - شباشب وصنادل (15 منتج)</li>
+            <li><code>GET /api/products/category/mens-accessories</code> - إكسسوارات رجالي (25 منتج)</li>
+            <li><code>GET /api/products/category/mens-galabeya</code> - جلابيات رجالي (20 منتج)</li>
+            <li><code>GET /api/products/category/football-jerseys</code> - تيشيرتات أندية (20 منتج)</li>
+            <li><code>GET /api/products/category/sports-equipment</code> - معدات رياضية (20 منتج)</li>
+            <li><code>GET /api/products/category/football-accessories</code> - إكسسوارات كرة قدم (20 منتج)</li>
+        </ul>
     `);
 });
 
 // ---------- GET ALL PRODUCTS ----------
 app.get('/api/products/all', (req, res) => {
-    const allProducts = Object.values(electronicsData).flat();
+    const allProducts = Object.values(clothingData).flat();
 
     if (req.query.pagination === 'false') {
         return res.status(200).json({
@@ -121,7 +137,7 @@ app.get('/api/products/search', (req, res) => {
         limit = 20 
     } = req.query;
     
-    let results = Object.values(electronicsData).flat();
+    let results = Object.values(clothingData).flat();
 
     // General text search
     if (q) {
@@ -194,7 +210,7 @@ app.get('/api/products/search', (req, res) => {
 
 // ---------- GET FEATURED PRODUCTS ----------
 app.get('/api/products/featured', (req, res) => {
-    const allProducts = Object.values(electronicsData).flat();
+    const allProducts = Object.values(clothingData).flat();
     
     // Latest models (2026)
     const latestModels = [...allProducts]
@@ -225,7 +241,7 @@ app.get('/api/products/featured', (req, res) => {
 // ---------- GET RANDOM PRODUCTS ----------
 app.get('/api/products/random', (req, res) => {
     const count = parseInt(req.query.count) || 5;
-    const allProducts = Object.values(electronicsData).flat();
+    const allProducts = Object.values(clothingData).flat();
     
     // Shuffle array and get random products
     const shuffled = [...allProducts].sort(() => 0.5 - Math.random());
@@ -244,7 +260,7 @@ app.get('/api/products/random', (req, res) => {
 // ---------- GET PRODUCTS STATISTICS ----------
 app.get('/api/products/stats', (req, res) => {
     try {
-        const allProducts = Object.values(electronicsData).flat();
+        const allProducts = Object.values(clothingData).flat();
         
         // Price statistics
         const prices = allProducts.map(p => p.price).filter(p => p != null && !isNaN(p) && p > 0);
@@ -264,7 +280,7 @@ app.get('/api/products/stats', (req, res) => {
         });
         
         // Category statistics
-        const categoryStats = Object.entries(electronicsData).map(([category, products]) => {
+        const categoryStats = Object.entries(clothingData).map(([category, products]) => {
             if (!Array.isArray(products)) return null;
             const validPrices = products.map(p => p.price).filter(p => p != null && !isNaN(p) && p > 0);
             const avg = validPrices.length > 0 ? validPrices.reduce((sum, p) => sum + p, 0) / validPrices.length : 0;
@@ -279,7 +295,7 @@ app.get('/api/products/stats', (req, res) => {
             success: true,
             stats: {
                 totalProducts: allProducts.length,
-                totalCategories: Object.keys(electronicsData).length,
+                totalCategories: Object.keys(clothingData).length,
                 priceRange: {
                     min: minPrice,
                     max: maxPrice,
@@ -321,7 +337,7 @@ app.get('/api/products/filter', (req, res) => {
         limit = 20
     } = req.query;
 
-    let results = Object.values(electronicsData).flat();
+    let results = Object.values(clothingData).flat();
 
     // Filter by category
     if (category) {
@@ -401,7 +417,7 @@ app.get('/api/products/sort', (req, res) => {
         limit = 20
     } = req.query;
 
-    let results = Object.values(electronicsData).flat();
+    let results = Object.values(clothingData).flat();
 
     // Filter by category if specified
     if (category) {
@@ -448,7 +464,7 @@ app.get('/api/products/sort', (req, res) => {
 // ---------- GET PRODUCTS BY PRICE RANGE ----------
 app.get('/api/products/price-range/:range', (req, res) => {
     const range = req.params.range;
-    const allProducts = Object.values(electronicsData).flat();
+    const allProducts = Object.values(clothingData).flat();
     
     let filteredProducts = [];
     let rangeLabel = '';
@@ -493,7 +509,7 @@ app.get('/api/products/price-range/:range', (req, res) => {
 // ---------- GET PRODUCTS BY COLOR ----------
 app.get('/api/products/color/:color', (req, res) => {
     const color = req.params.color.toLowerCase();
-    const allProducts = Object.values(electronicsData).flat();
+    const allProducts = Object.values(clothingData).flat();
     
     const filteredProducts = allProducts.filter(product => 
         product.color?.toLowerCase().includes(color)
@@ -517,7 +533,7 @@ app.get('/api/products/similar/:id', (req, res) => {
     let foundCategory = null;
 
     // Find the product
-    for (const [category, products] of Object.entries(electronicsData)) {
+    for (const [category, products] of Object.entries(clothingData)) {
         const product = products.find(p => String(p.id) === String(id));
         if (product) {
             foundProduct = product;
@@ -534,7 +550,7 @@ app.get('/api/products/similar/:id', (req, res) => {
     }
 
     // Get products from same category (excluding the current product)
-    const similarProducts = electronicsData[foundCategory]
+    const similarProducts = clothingData[foundCategory]
         .filter(p => String(p.id) !== String(id))
         .slice(0, 5);
 
@@ -550,7 +566,7 @@ app.get('/api/products/similar/:id', (req, res) => {
 // ---------- GET PRODUCTS BY CATEGORY ----------
 app.get('/api/products/category/:category', (req, res) => {
     const category = req.params.category.toLowerCase().trim();
-    const categoryData = electronicsData[category];
+    const categoryData = clothingData[category];
 
     if (!categoryData) {
         return res.status(404).json({ 
@@ -576,7 +592,7 @@ app.get('/api/products/:id', (req, res) => {
     let foundCategory = null;
 
     // Search for product in all categories
-    for (const [category, products] of Object.entries(electronicsData)) {
+    for (const [category, products] of Object.entries(clothingData)) {
         const product = products.find(p => String(p.id) === String(id));
         if (product) {
             foundProduct = { ...product }; // Create a copy
@@ -636,28 +652,28 @@ app.post('/api/products', (req, res) => {
     };
 
     // If category doesn't exist, create it
-    if (!electronicsData[categoryKey]) {
-        electronicsData[categoryKey] = [];
+    if (!clothingData[categoryKey]) {
+        clothingData[categoryKey] = [];
     }
 
-    electronicsData[categoryKey].push(newProduct);
+    clothingData[categoryKey].push(newProduct);
 
     res.status(201).json({
         success: true,
         message: 'Product added successfully (in-memory only)',
         product: newProduct,
         info: {
-            totalInCategory: electronicsData[categoryKey].length
+            totalInCategory: clothingData[categoryKey].length
         }
     });
 });
 
 // ---------- GET CATEGORIES LIST ----------
 app.get('/api/categories', (req, res) => {
-    const categories = Object.keys(electronicsData).map(category => ({
+    const categories = Object.keys(clothingData).map(category => ({
         name: category,
-        count: electronicsData[category].length,
-        sampleProduct: electronicsData[category][0]?.title || 'No products'
+        count: clothingData[category].length,
+        sampleProduct: clothingData[category][0]?.title || 'No products'
     }));
 
     res.status(200).json({
@@ -692,7 +708,7 @@ app.listen(PORT, () => {
     console.log(`🚀 Server is running on http://localhost:${PORT}`);
     console.log(`📅 Date: Monday, February 23, 2026`);
     console.log(`🕐 Time: 01:28 AM (Cairo Time)`);
-    console.log(`📦 Total categories loaded: ${Object.keys(electronicsData).length}`);
+    console.log(`📦 Total categories loaded: ${Object.keys(clothingData).length}`);
     console.log(`🎯 Try these endpoints:`);
     console.log(`   • http://localhost:${PORT}/api/products/all`);
     console.log(`   • http://localhost:${PORT}/api/products/random`);

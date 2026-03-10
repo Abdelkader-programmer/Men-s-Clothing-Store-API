@@ -1,0 +1,414 @@
+[
+  {
+    "id": 1,
+    "title": "Leather Belt Accessory",
+    "description": "Classic black leather belt with silver buckle",
+    "price": 180,
+    "color": "Black",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "season": "All Season",
+    "material": "Genuine Leather",
+    "model": 2025,
+    "category": "mens-accessories",
+    "stock": 50,
+    "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/89/519135/1.jpg?5351"
+  },
+  {
+    "id": 2,
+    "title": "Cotton Socks Accessory",
+    "description": "Comfortable cotton dress socks in navy blue",
+    "price": 25,
+    "color": "Navy Blue",
+    "size": [
+      "39-42",
+      "43-46"
+    ],
+    "season": "All Season",
+    "material": "Cotton Blend",
+    "model": 2025,
+    "category": "mens-accessories",
+    "stock": 100,
+    "image": "https://www.tiemathletic.com/cdn/shop/products/1I6A9217_5000x.jpg?v=1748747934"
+  },
+  {
+    "id": 3,
+    "title": "Baseball Cap Accessory",
+    "description": "Adjustable baseball cap in classic gray color",
+    "price": 85,
+    "color": "Gray",
+    "size": [
+      "One Size"
+    ],
+    "season": "All Season",
+    "material": "Cotton Twill",
+    "model": 2025,
+    "category": "mens-accessories",
+    "stock": 60,
+    "image": "https://m.media-amazon.com/images/I/51i2bj3lwQL._AC_SY1000_.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Analog Watch Accessory",
+    "description": "Elegant silver analog watch with leather strap",
+    "price": 450,
+    "color": "Silver",
+    "size": [
+      "One Size"
+    ],
+    "season": "All Season",
+    "material": "Stainless Steel with Leather",
+    "model": 2025,
+    "category": "mens-accessories",
+    "stock": 30,
+    "image": "https://m.media-amazon.com/images/I/81zDj-ZX3cL.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Silk Tie Accessory",
+    "description": "Premium silk necktie in classic red color",
+    "price": 120,
+    "color": "Red",
+    "size": [
+      "One Size"
+    ],
+    "season": "All Season",
+    "material": "100% Silk",
+    "model": 2025,
+    "category": "mens-accessories",
+    "stock": 40,
+    "image": "https://www.tiemart.com/cdn/shop/products/red-silk-skinny-tie_500x@2x.jpg?v=1762460386"
+  },
+  {
+    "id": 6,
+    "title": "Leather Wallet Accessory",
+    "description": "Bifold leather wallet with multiple card slots",
+    "price": 220,
+    "color": "Brown",
+    "size": [
+      "One Size"
+    ],
+    "season": "All Season",
+    "material": "Genuine Leather",
+    "model": 2025,
+    "category": "mens-accessories",
+    "stock": 45,
+    "image": "https://sagebrown.co.uk/cdn/shop/files/sagebrown-brown-leather-2-in-1-wallet-brown-33007916351661.jpg?v=1683624040"
+  },
+  {
+    "id": 7,
+    "title": "Sunglasses Accessory",
+    "description": "Stylish sunglasses with UV protection",
+    "price": 280,
+    "color": "Black",
+    "size": [
+      "One Size"
+    ],
+    "season": "Summer",
+    "material": "Acetate Frame with Glass Lens",
+    "model": 2025,
+    "category": "mens-accessories",
+    "stock": 35,
+    "image": "https://frontierfashion.com/cdn/shop/files/P1005-plastic-geometric-cat-eye-sunglasses-07.jpg?v=1687373073"
+  },
+  {
+    "id": 8,
+    "title": "Bow Tie Accessory",
+    "description": "Adjustable bow tie for formal occasions",
+    "price": 95,
+    "color": "Navy Blue",
+    "size": [
+      "One Size"
+    ],
+    "season": "All Season",
+    "material": "Silk",
+    "model": 2025,
+    "category": "mens-accessories",
+    "stock": 25,
+    "image": "https://mrsbowtie.com/cdn/shop/products/933977718d50911fcc7c77dc79b944e4393e7065a6d4f65c577ed7681faf7cab_d2d68b67-7d7f-4921-8e86-83f5b54f6069.jpg?v=1670250897"
+  },
+  {
+    "id": 9,
+    "title": "Cufflinks Accessory",
+    "description": "Elegant gold-plated cufflinks for dress shirts",
+    "price": 350,
+    "color": "Gold",
+    "size": [
+      "One Size"
+    ],
+    "season": "All Season",
+    "material": "Gold Plated Metal",
+    "model": 2025,
+    "category": "mens-accessories",
+    "stock": 20,
+    "image": "https://www.tiemart.com/cdn/shop/products/gold-cufflinks_1_2_1200x1200.jpg?v=1762462573"
+  },
+  {
+    "id": 10,
+    "title": "Scarf Accessory",
+    "description": "Warm wool scarf for winter weather",
+    "price": 150,
+    "color": "Gray",
+    "size": [
+      "One Size"
+    ],
+    "season": "Winter",
+    "material": "100% Wool",
+    "model": 2025,
+    "category": "mens-accessories",
+    "stock": 30,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeMvLtT1KonhLpExcCr7mKZv-bJmdgkSp91A&s"
+  },
+  {
+    "id": 11,
+    "title": "Beanie Hat Accessory",
+    "description": "Knitted beanie hat for cold weather",
+    "price": 65,
+    "color": "Black",
+    "size": [
+      "One Size"
+    ],
+    "season": "Winter",
+    "material": "Acrylic Knit",
+    "model": 2025,
+    "category": "mens-accessories",
+    "stock": 55,
+    "image": "https://www.theschoolwearspecialists.co.uk/media/catalog/product/cache/415b408907ca000e88f6bfdffacb1d1c/b/l/black_beanie.png"
+  },
+  {
+    "id": 12,
+    "title": "Leather Gloves Accessory",
+    "description": "Premium leather gloves with fleece lining",
+    "price": 190,
+    "color": "Brown",
+    "size": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "season": "Winter",
+    "material": "Leather with Fleece Lining",
+    "model": 2025,
+    "category": "mens-accessories",
+    "stock": 25,
+    "image": "https://frickin.nl/wp-content/uploads/2022/10/james-01.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Pocket Square Accessory",
+    "description": "Classic white silk pocket square",
+    "price": 75,
+    "color": "White",
+    "size": [
+      "One Size"
+    ],
+    "season": "All Season",
+    "material": "Silk",
+    "model": 2025,
+    "category": "mens-accessories",
+    "stock": 40,
+    "image": "https://go-stylish.com/wp-content/uploads/2025/06/IMG_1799-Edit-scaled-1.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Suspenders Accessory",
+    "description": "Adjustable suspenders with leather tabs",
+    "price": 140,
+    "color": "Navy Blue",
+    "size": [
+      "One Size"
+    ],
+    "season": "All Season",
+    "material": "Elastic with Leather",
+    "model": 2025,
+    "category": "mens-accessories",
+    "stock": 20,
+    "image": "https://www.bows-n-ties.com/34177-xlarge_default/Solid-Navy-Blue-Suspenders.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Briefcase Accessory",
+    "description": "Professional leather briefcase for business",
+    "price": 680,
+    "color": "Black",
+    "size": [
+      "One Size"
+    ],
+    "season": "All Season",
+    "material": "Genuine Leather",
+    "model": 2025,
+    "category": "mens-accessories",
+    "stock": 15,
+    "image": "https://m.media-amazon.com/images/I/514FYlv+vML._AC_UY1000_.jpg"
+  },
+  {
+    "id": 16,
+    "title": "Dress Socks Accessory",
+    "description": "Formal black dress socks for business wear",
+    "price": 30,
+    "color": "Black",
+    "size": [
+      "39-42",
+      "43-46"
+    ],
+    "season": "All Season",
+    "material": "Cotton Blend",
+    "model": 2025,
+    "category": "mens-accessories",
+    "stock": 80,
+    "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/91/313561/1.jpg?4851"
+  },
+  {
+    "id": 17,
+    "title": "Fedora Hat Accessory",
+    "description": "Classic brown fedora hat with feather detail",
+    "price": 220,
+    "color": "Brown",
+    "size": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "season": "All Season",
+    "material": "Wool Felt",
+    "model": 2025,
+    "category": "mens-accessories",
+    "stock": 18,
+    "image": "https://classymencollection.com/cdn/shop/products/Brown-Classic-Fedora-Hat-For-Men.jpg?v=1591465066"
+  },
+  {
+    "id": 18,
+    "title": "Luxury Watch Accessory",
+    "description": "Premium luxury watch with black case and leather band",
+    "price": 850,
+    "color": "Black",
+    "size": [
+      "One Size"
+    ],
+    "season": "All Season",
+    "material": "Stainless Steel with Leather Band",
+    "model": 2025,
+    "category": "mens-accessories",
+    "stock": 25,
+    "image": "https://static.wixstatic.com/media/fb71de_0fc5ce33c8264d1da02393f3dd059c23~mv2.jpeg/v1/fill/w_980,h_980,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/fb71de_0fc5ce33c8264d1da02393f3dd059c23~mv2.jpeg"
+  },
+  {
+    "id": 19,
+    "title": "Reversible Belt Accessory",
+    "description": "Versatile reversible leather belt",
+    "price": 250,
+    "color": "Black/Brown",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "season": "All Season",
+    "material": "Genuine Leather",
+    "model": 2025,
+    "category": "mens-accessories",
+    "stock": 35,
+    "image": "https://m.media-amazon.com/images/I/710NcLPvw5L._AC_UY1000_.jpg"
+  },
+  {
+    "id": 20,
+    "title": "Sports Watch Accessory",
+    "description": "Digital sports watch with multiple functions",
+    "price": 380,
+    "color": "Black",
+    "size": [
+      "One Size"
+    ],
+    "season": "All Season",
+    "material": "Rubber Strap with Digital Display",
+    "model": 2025,
+    "category": "mens-accessories",
+    "stock": 28,
+    "image": "https://m.media-amazon.com/images/I/31DH8tKcBXL._AC_SY900_.jpg"
+  },
+  {
+    "id": 21,
+    "title": "Backpack Accessory",
+    "description": "Casual canvas backpack for everyday use",
+    "price": 420,
+    "color": "Navy Blue",
+    "size": [
+      "One Size"
+    ],
+    "season": "All Season",
+    "material": "Canvas with Leather Trim",
+    "model": 2025,
+    "category": "mens-accessories",
+    "stock": 22,
+    "image": "https://m.media-amazon.com/images/I/71xdTbcsr+L._AC_UY1000_.jpg"
+  },
+  {
+    "id": 22,
+    "title": "Cologne Accessory",
+    "description": "Premium men's cologne with fresh citrus notes",
+    "price": 480,
+    "color": "Clear",
+    "size": [
+      "100ml"
+    ],
+    "season": "All Season",
+    "material": "Fragrance",
+    "model": 2025,
+    "category": "mens-accessories",
+    "stock": 40,
+    "image": "https://www.faces.eg/dw/image/v2/BJSM_PRD/on/demandware.static/-/Sites-faces-master-catalog/default/dwe38c1f0f/product/3348901368247_1/3348901368247_1.jpg?sw=800&sh=800"
+  },
+  {
+    "id": 23,
+    "title": "Umbrella Accessory",
+    "description": "Compact folding umbrella with automatic open",
+    "price": 120,
+    "color": "Black",
+    "size": [
+      "One Size"
+    ],
+    "season": "All Season",
+    "material": "Polyester with Metal Frame",
+    "model": 2025,
+    "category": "mens-accessories",
+    "stock": 30,
+    "image": "https://www.ikea.com/eg/en/images/products/knalla-umbrella-black__0934105_pe792338_s5.jpg"
+  },
+  {
+    "id": 24,
+    "title": "Money Clip Accessory",
+    "description": "Sleek silver money clip for minimalist style",
+    "price": 180,
+    "color": "Silver",
+    "size": [
+      "One Size"
+    ],
+    "season": "All Season",
+    "material": "Stainless Steel",
+    "model": 2025,
+    "category": "mens-accessories",
+    "stock": 25,
+    "image": "https://www.hersey.co.uk/cdn/shop/files/NXcyC0dzhO1kGm1dxJDf0W5kYLS6T1s2AUc9Gpss88.jpg?v=1772627011"
+  },
+  {
+    "id": 25,
+    "title": "Lapel Pin Accessory",
+    "description": "Elegant gold lapel pin for suit jackets",
+    "price": 95,
+    "color": "Gold",
+    "size": [
+      "One Size"
+    ],
+    "season": "All Season",
+    "material": "Gold Plated Metal",
+    "model": 2025,
+    "category": "mens-accessories",
+    "stock": 35,
+    "image": "https://res.cloudinary.com/wolfandbadger/image/upload/s--enp3DeM5--/products/kwohmrzardcisyb9weel"
+  }
+]

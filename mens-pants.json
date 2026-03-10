@@ -1,0 +1,405 @@
+[
+  {
+    "id": 1,
+    "title": "Classic Jeans Pants",
+    "description": "Classic straight-fit blue jeans, perfect for everyday wear",
+    "price": 320,
+    "color": "Blue",
+    "size": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36",
+      "38"
+    ],
+    "season": "All Season",
+    "material": "100% Cotton Denim",
+    "model": 2025,
+    "category": "mens-pants",
+    "stock": 45,
+    "image": "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/595230s6.jpg?im=Resize,width=750"
+  },
+  {
+    "id": 2,
+    "title": "Skinny Jeans Pants",
+    "description": "Slim-fit skinny jeans with stretch fabric",
+    "price": 350,
+    "color": "Black",
+    "size": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "season": "All Season",
+    "material": "Cotton Denim with Elastane",
+    "model": 2025,
+    "category": "mens-pants",
+    "stock": 40,
+    "image": "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/U85464s6.jpg?im=Resize,width=180"
+  },
+  {
+    "id": 3,
+    "title": "Chino Pants",
+    "description": "Smart casual chino pants, versatile and comfortable",
+    "price": 280,
+    "color": "Khaki",
+    "size": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38"
+    ],
+    "season": "All Season",
+    "material": "Cotton Twill",
+    "model": 2025,
+    "category": "mens-pants",
+    "stock": 35,
+    "image": "https://www.billyreid.com/cdn/shop/products/s23_302-093_chino-pant_khaki_001858_8f840137-b847-46c2-b911-952c785bb6a0.jpg?v=1762199253&width=1600"
+  },
+  {
+    "id": 4,
+    "title": "Dress Pants",
+    "description": "Formal dress pants for business and special occasions",
+    "price": 420,
+    "color": "Navy",
+    "size": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "season": "All Season",
+    "material": "Wool Blend",
+    "model": 2025,
+    "category": "mens-pants",
+    "stock": 30,
+    "image": "https://www.truwear.com/cdn/shop/files/J7H_3535.png?v=1743530491"
+  },
+  {
+    "id": 5,
+    "title": "Cargo Pants",
+    "description": "Multi-pocket cargo pants for outdoor activities",
+    "price": 380,
+    "color": "Olive Green",
+    "size": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38"
+    ],
+    "season": "All Season",
+    "material": "Cotton Canvas",
+    "model": 2025,
+    "category": "mens-pants",
+    "stock": 32,
+    "image": "https://jordancraig.com/cdn/shop/products/5625M_ARMY-GREEN_F.jpg?v=1698323910&width=2048"
+  },
+  {
+    "id": 6,
+    "title": "Jogger Pants",
+    "description": "Comfortable jogger pants with elastic waistband",
+    "price": 240,
+    "color": "Gray",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Cotton Fleece",
+    "model": 2025,
+    "category": "mens-pants",
+    "stock": 50,
+    "image": "https://petermanningnyc.com/cdn/shop/products/WorkoutJogger-Gray_2000x.jpg?v=1661886007"
+  },
+  {
+    "id": 7,
+    "title": "Corduroy Pants",
+    "description": "Vintage-style corduroy pants with textured finish",
+    "price": 360,
+    "color": "Brown",
+    "size": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38"
+    ],
+    "season": "Fall/Winter",
+    "material": "Cotton Corduroy",
+    "model": 2025,
+    "category": "mens-pants",
+    "stock": 28,
+    "image": "https://assets.manufactum.de/p/213/213638/213638_01.jpg/ladies-corduroy-pants.jpg?w=0&scale.option=fill&h=400&canvas.aspectratio=1%3A1&canvas.width=251.9760%25&canvas.height=100.0000%25&q=90"
+  },
+  {
+    "id": 8,
+    "title": "Linen Pants",
+    "description": "Lightweight linen pants perfect for summer",
+    "price": 300,
+    "color": "Beige",
+    "size": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38"
+    ],
+    "season": "Summer",
+    "material": "100% Linen",
+    "model": 2025,
+    "category": "mens-pants",
+    "stock": 25,
+    "image": "https://theshopyohjiyamamoto.com/cdn/shop/files/FS-P64-301_1-9.jpg?v=1724297651&width=1445"
+  },
+  {
+    "id": 9,
+    "title": "Track Pants",
+    "description": "Athletic track pants with side stripes",
+    "price": 220,
+    "color": "Black",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Polyester",
+    "model": 2025,
+    "category": "mens-pants",
+    "stock": 42,
+    "image": "https://chrisheria.com/cdn/shop/files/Track_Pants_-_Black.png?v=1721780801"
+  },
+  {
+    "id": 10,
+    "title": "Leather Pants",
+    "description": "Premium leather pants for bold fashion statement",
+    "price": 680,
+    "color": "Black",
+    "size": [
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "season": "All Season",
+    "material": "Genuine Leather",
+    "model": 2026,
+    "category": "mens-pants",
+    "stock": 15,
+    "image": "https://leatherskinshop.com/cdn/shop/products/Men-Black-Leather-Pant-Front_1200x.jpg?v=1631758112"
+  },
+  {
+    "id": 11,
+    "title": "Pleated Trousers Pants",
+    "description": "Classic pleated trousers for formal wear",
+    "price": 450,
+    "color": "Charcoal",
+    "size": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "season": "All Season",
+    "material": "Wool",
+    "model": 2025,
+    "category": "mens-pants",
+    "stock": 22,
+    "image": "https://blugiallo.com/wp-content/uploads/2023/08/2002953_front-copy-scaled.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Carpenter Jeans Pants",
+    "description": "Heavy-duty carpenter jeans with tool loops",
+    "price": 390,
+    "color": "Blue",
+    "size": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38"
+    ],
+    "season": "All Season",
+    "material": "Heavy Cotton Denim",
+    "model": 2025,
+    "category": "mens-pants",
+    "stock": 26,
+    "image": "https://eg.hm.com/en/media_1029c92693f8bb1e68923393b14c04abe95d6cf58.jpg?width=1200&format=pjpg&optimize=medium"
+  },
+  {
+    "id": 13,
+    "title": "Tuxedo Pants",
+    "description": "Formal tuxedo pants with satin stripe",
+    "price": 520,
+    "color": "Black",
+    "size": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "season": "All Season",
+    "material": "Wool with Satin",
+    "model": 2026,
+    "category": "mens-pants",
+    "stock": 18,
+    "image": "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/K88535s7.jpg?im=Resize,width=750"
+  },
+  {
+    "id": 14,
+    "title": "Shorts Pants",
+    "description": "Casual knee-length shorts for summer",
+    "price": 180,
+    "color": "Khaki",
+    "size": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38"
+    ],
+    "season": "Summer",
+    "material": "Cotton Twill",
+    "model": 2025,
+    "category": "mens-pants",
+    "stock": 38,
+    "image": "https://scene7.zumiez.com/is/image/zumiez/product_main_medium/Empyre-Khaki-Skate-Cargo-Shorts-_379871-front-US.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Wide Leg Pants",
+    "description": "Wide-leg palazzo pants for relaxed comfort",
+    "price": 260,
+    "color": "White",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "season": "Summer",
+    "material": "Cotton Linen Blend",
+    "model": 2025,
+    "category": "mens-pants",
+    "stock": 20,
+    "image": "https://i5.walmartimages.com/asr/6e51dbff-2aaf-4348-b299-a5a704d4e835.b295869630a2628a3920d765f040bf17.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
+  },
+  {
+    "id": 16,
+    "title": "Tactical Pants",
+    "description": "Military-style tactical pants with multiple pockets",
+    "price": 420,
+    "color": "Camo Green",
+    "size": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38"
+    ],
+    "season": "All Season",
+    "material": "Ripstop Cotton",
+    "model": 2025,
+    "category": "mens-pants",
+    "stock": 24,
+    "image": "https://assets.cat5.com/images/catalog/products/4/9/5/1/8/0-1001-propper-nylon-cotton-ocp-uniform-pants-scorpion-ocp.jpg"
+  },
+  {
+    "id": 17,
+    "title": "Sweatpants Pants",
+    "description": "Comfortable sweatpants with drawstring waist",
+    "price": 200,
+    "color": "Navy",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Cotton Fleece",
+    "model": 2025,
+    "category": "mens-pants",
+    "stock": 45,
+    "image": "https://www.laspeedy.com/cdn/shop/files/PP_Nvy_Framed_rev_SHOP.jpg?v=1684345311"
+  },
+  {
+    "id": 18,
+    "title": "Pinstripe Pants",
+    "description": "Elegant pinstripe pants for business attire",
+    "price": 480,
+    "color": "Gray",
+    "size": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "season": "All Season",
+    "material": "Wool Blend",
+    "model": 2026,
+    "category": "mens-pants",
+    "stock": 20,
+    "image": "https://turnbullandasser.co.uk/cdn/shop/files/ZZFT3672_204025_2004_1.jpg?v=1707692125"
+  },
+  {
+    "id": 19,
+    "title": "Ripped Jeans Pants",
+    "description": "Trendy ripped jeans with distressed details",
+    "price": 380,
+    "color": "Light Blue",
+    "size": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "season": "All Season",
+    "material": "Cotton Denim",
+    "model": 2026,
+    "category": "mens-pants",
+    "stock": 30,
+    "image": "https://lilbeatz.com/wp-content/uploads/2023/05/Classic-Ripped-Skinny-Jeans-Blue-Boys-Front.jpg"
+  },
+  {
+    "id": 20,
+    "title": "Winter Pants",
+    "description": "Insulated thermal pants for cold weather",
+    "price": 320,
+    "color": "Black",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Winter",
+    "material": "Thermal Polyester",
+    "model": 2025,
+    "category": "mens-pants",
+    "stock": 28,
+    "image": "https://www.performancebegin.com/images/thumbs/0014165_pantalon-de-ski-alpin-peak-performance-alpine-gore-tex-2l-noir-pour-femme_600.jpeg"
+  }
+]

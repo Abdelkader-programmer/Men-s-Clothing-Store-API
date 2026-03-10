@@ -1,0 +1,376 @@
+[
+  {
+    "id": 1,
+    "title": "Classic Galabeya",
+    "description": "Traditional white cotton galabeya, comfortable for daily wear and prayer",
+    "price": 250,
+    "color": "White",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "100% Cotton",
+    "model": 2025,
+    "category": "mens-galabeya",
+    "stock": 40,
+    "image": "https://williamwhite.com/cdn/shop/files/2024-9-27-William-White-WillsGalabeyaWhiteWhite-0017.jpg?v=1728514152&width=2048"
+  },
+  {
+    "id": 2,
+    "title": "Beige Cotton Galabeya",
+    "description": "Elegant beige galabeya with embroidered collar, perfect for special occasions",
+    "price": 280,
+    "color": "Beige",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Premium Cotton",
+    "model": 2025,
+    "category": "mens-galabeya",
+    "stock": 35,
+    "image": "https://tawheedwnour.com/cdn/shop/files/51278350010_bb161539-58be-4527-9a9b-499e2feed1ff.jpg?v=1759240883"
+  },
+  {
+    "id": 3,
+    "title": "Navy Galabeya",
+    "description": "Modern navy blue galabeya with side pockets, comfortable fit",
+    "price": 270,
+    "color": "Navy Blue",
+    "size": [
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Cotton Blend",
+    "model": 2025,
+    "category": "mens-galabeya",
+    "stock": 30,
+    "image": "https://m.media-amazon.com/images/I/41ipefOQqTL._AC_UF1000,1000_QL80_.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Gray Striped Galabeya",
+    "description": "Stylish gray galabeya with subtle stripes, modern design",
+    "price": 290,
+    "color": "Gray",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Cotton Polyester",
+    "model": 2026,
+    "category": "mens-galabeya",
+    "stock": 28,
+    "image": "https://tawheedwnour.com/cdn/shop/files/51288163010-_2.jpg?v=1761050246&width=720"
+  },
+  {
+    "id": 5,
+    "title": "Brown Traditional Galabeya",
+    "description": "Classic brown galabeya with traditional embroidery",
+    "price": 300,
+    "color": "Brown",
+    "size": [
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Premium Cotton",
+    "model": 2025,
+    "category": "mens-galabeya",
+    "stock": 25,
+    "image": "https://tawheedwnour.com/cdn/shop/files/51203514010.jpg?v=1759237900"
+  },
+  {
+    "id": 6,
+    "title": "Black Formal Galabeya",
+    "description": "Elegant black galabeya for formal occasions and events",
+    "price": 320,
+    "color": "Black",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Premium Cotton",
+    "model": 2026,
+    "category": "mens-galabeya",
+    "stock": 32,
+    "image": "https://tawheedwnour.com/cdn/shop/files/51302997010-_1.jpg?v=1768989517&width=1024"
+  },
+  {
+    "id": 7,
+    "title": "Cream Embroidered Galabeya",
+    "description": "Luxurious cream galabeya with detailed embroidery on chest",
+    "price": 350,
+    "color": "Cream",
+    "size": [
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Egyptian Cotton",
+    "model": 2026,
+    "category": "mens-galabeya",
+    "stock": 20,
+    "image": "https://www.raneen.com/media/catalog/product/1/8/180_rsxhnhaqxikzqqy7.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=700&width=700&canvas=700:700"
+  },
+  {
+    "id": 8,
+    "title": "Light Galabeya",
+    "description": "Warm blue galabeya, perfect for cold winter days",
+    "price": 260,
+    "color": "Light Blue",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Winter",
+    "material": "Thick Cotton",
+    "model": 2025,
+    "category": "mens-galabeya",
+    "stock": 38,
+    "image": "https://tawheedwnour.com/cdn/shop/files/51303034010-_1.jpg?v=1768989517&width=720"
+  },
+  {
+    "id": 9,
+    "title": "Olive Galabeya",
+    "description": "Modern olive green galabeya with contemporary cut",
+    "price": 285,
+    "color": "Olive Green",
+    "size": [
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Cotton Blend",
+    "model": 2026,
+    "category": "mens-galabeya",
+    "stock": 26,
+    "image": "https://tawheedwnour.com/cdn/shop/files/51278367010.jpg?v=1759241228&width=720"
+  },
+  {
+    "id": 10,
+    "title": "Burgundy Premium Galabeya",
+    "description": "Elegant burgundy galabeya with gold embroidery details",
+    "price": 380,
+    "color": "Burgundy",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Premium Egyptian Cotton",
+    "model": 2026,
+    "category": "mens-galabeya",
+    "stock": 18,
+    "image": "https://img.kwcdn.com/product/fancy/06378102-1653-4647-bfd7-73c7f5ec8e68.jpg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp"
+  },
+  {
+    "id": 11,
+    "title": "White Ramadan Special Galabeya",
+    "description": "Special white galabeya for Ramadan and Eid, with elegant design",
+    "price": 340,
+    "color": "White",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "season": "All Season",
+    "material": "Premium Cotton",
+    "model": 2026,
+    "category": "mens-galabeya",
+    "stock": 45,
+    "image": "https://tawheedwnour.com/cdn/shop/files/51134633010_2_b9e29f17-b03a-4a27-bc04-e7672870536a.jpg?v=1743045361&width=720"
+  },
+  {
+    "id": 12,
+    "title": "Charcoal Galabeya",
+    "description": "Sophisticated charcoal gray galabeya with modern fit",
+    "price": 295,
+    "color": "Charcoal Gray",
+    "size": [
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Cotton Polyester",
+    "model": 2025,
+    "category": "mens-galabeya",
+    "stock": 30,
+    "image": "https://tawheedwnour.com/cdn/shop/files/51287992010-_2.jpg?v=1761049808&width=600"
+  },
+  {
+    "id": 13,
+    "title": "Khaki Casual Galabeya",
+    "description": "Casual khaki galabeya with relaxed fit and pockets",
+    "price": 265,
+    "color": "Khaki",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Cotton",
+    "model": 2025,
+    "category": "mens-galabeya",
+    "stock": 33,
+    "image": "https://tawheedwnour.com/cdn/shop/files/47172796010_1.jpg?v=1743167751&width=720"
+  },
+  {
+    "id": 14,
+    "title": "Dark Galabeya",
+    "description": "Traditional dark green galabeya with classic collar",
+    "price": 275,
+    "color": "Dark Green",
+    "size": [
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Cotton Blend",
+    "model": 2025,
+    "category": "mens-galabeya",
+    "stock": 27,
+    "image": "https://tawheedwnour.com/cdn/shop/files/51191423010_1.jpg?v=1743127751&width=720"
+  },
+  {
+    "id": 15,
+    "title": "Beige Luxury Galabeya",
+    "description": "Luxury beige galabeya with premium fabric and finish",
+    "price": 400,
+    "color": "Beige",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Egyptian Cotton",
+    "model": 2026,
+    "category": "mens-galabeya",
+    "stock": 22,
+    "image": "https://tawheedwnour.com/cdn/shop/files/51278350010_bb161539-58be-4527-9a9b-499e2feed1ff.jpg?v=1759240883"
+  },
+  {
+    "id": 16,
+    "title": "Black Embroidered Galabeya",
+    "description": "Rich black galabeya with intricate embroidery work",
+    "price": 360,
+    "color": "Black",
+    "size": [
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Premium Cotton",
+    "model": 2026,
+    "category": "mens-galabeya",
+    "stock": 24,
+    "image": "https://s.alicdn.com/@sc04/kf/H59f8976393e04422b43759260d768d62i/Traditional-Black-Embroidered-Thobe-Muslim-Men-s-Hooded-Robe-Islamic-Clothing-Arab-Men-Kaftan-Thobe.jpg_300x300.jpg"
+  },
+  {
+    "id": 17,
+    "title": "Light Galabeya",
+    "description": "Contemporary light gray galabeya with slim fit design",
+    "price": 310,
+    "color": "Light Gray",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Cotton Polyester",
+    "model": 2026,
+    "category": "mens-galabeya",
+    "stock": 29,
+    "image": "https://tawheedwnour.com/cdn/shop/files/47172801010_1.jpg?v=1743167751&width=720"
+  },
+  {
+    "id": 18,
+    "title": "Camel Galabeya",
+    "description": "Elegant camel brown galabeya with comfortable loose fit",
+    "price": 290,
+    "color": "Camel Brown",
+    "size": [
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Cotton",
+    "model": 2025,
+    "category": "mens-galabeya",
+    "stock": 31,
+    "image": "https://tawheedwnour.com/cdn/shop/files/51303033010-_1.jpg?v=1768989517&width=720"
+  },
+  {
+    "id": 19,
+    "title": "Steel Galabeya",
+    "description": "Premium steel blue galabeya with modern collar design",
+    "price": 330,
+    "color": "Steel Blue",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Premium Cotton",
+    "model": 2026,
+    "category": "mens-galabeya",
+    "stock": 26,
+    "image": "https://tawheedwnour.com/cdn/shop/files/47172818010.jpg?v=1743167751&width=720"
+  },
+  {
+    "id": 20,
+    "title": "Off-White Eid Special Galabeya",
+    "description": "Special off-white galabeya for Eid celebrations with gold trim",
+    "price": 420,
+    "color": "Off-White",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "season": "All Season",
+    "material": "Egyptian Cotton",
+    "model": 2026,
+    "category": "mens-galabeya",
+    "stock": 35,
+    "image": "https://tawheedwnour.com/cdn/shop/files/45252209010-_1.jpg?v=1758374538&width=600"
+  }
+]

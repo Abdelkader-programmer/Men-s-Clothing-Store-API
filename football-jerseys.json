@@ -1,0 +1,422 @@
+[
+  {
+    "id": 1,
+    "title": "Al Ahly Home Jersey",
+    "description": "Official Al Ahly SC home jersey, red color with club badge",
+    "price": 450,
+    "color": "Red",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Polyester",
+    "model": 2025,
+    "category": "football-jerseys",
+    "club": "Al Ahly",
+    "stock": 50,
+    "image": "https://assets.adidas.com/images/w_1880,f_auto,q_auto/63e31ef11cb64fc8a4995669280d0b29_9366/KL0329_01_laydown.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Zamalek Home Jersey",
+    "description": "Official Zamalek SC home jersey, white color with club badge",
+    "price": 450,
+    "color": "White",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Polyester",
+    "model": 2025,
+    "category": "football-jerseys",
+    "club": "Zamalek",
+    "stock": 50,
+    "image": "https://amzunit.com/cdn/shop/files/555428614_1255357806620669_5129428845692085274_n.jpg?v=1761666393&width=1080"
+  },
+  {
+    "id": 3,
+    "title": "Real Madrid Home Jersey",
+    "description": "Official Real Madrid home jersey, white with gold details",
+    "price": 550,
+    "color": "White",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Premium Polyester",
+    "model": 2025,
+    "category": "football-jerseys",
+    "club": "Real Madrid",
+    "stock": 40,
+    "image": "https://www.tudnfanshop.com/cdn/shop/files/KcgLQmXA_WHT.png?v=1755698901&width=1500"
+  },
+  {
+    "id": 4,
+    "title": "Barcelona Home Jersey",
+    "description": "Official FC Barcelona home jersey, blue and red stripes",
+    "price": 550,
+    "color": "Blue & Red",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Premium Polyester",
+    "model": 2025,
+    "category": "football-jerseys",
+    "club": "Barcelona",
+    "stock": 40,
+    "image": "https://mysportskit.com.ng/wp-content/uploads/2025/06/14-4.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Manchester United Home Jersey",
+    "description": "Official Manchester United home jersey, red with black details",
+    "price": 550,
+    "color": "Red",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Premium Polyester",
+    "model": 2025,
+    "category": "football-jerseys",
+    "club": "Manchester United",
+    "stock": 35,
+    "image": "https://www.sollymsports.com/wp-content/uploads/2025/06/IMG_0955.jpeg"
+  },
+  {
+    "id": 6,
+    "title": "Liverpool Home Jersey",
+    "description": "Official Liverpool FC home jersey, red with white details",
+    "price": 550,
+    "color": "Red",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Premium Polyester",
+    "model": 2025,
+    "category": "football-jerseys",
+    "club": "Liverpool",
+    "stock": 35,
+    "image": "https://www.anfield-online.co.uk/store/lfc-home-kit-2025-26/lfc-home-shirt-25-26.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Chelsea Home Jersey",
+    "description": "Official Chelsea FC home jersey, blue with club crest",
+    "price": 550,
+    "color": "Blue",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Premium Polyester",
+    "model": 2025,
+    "category": "football-jerseys",
+    "club": "Chelsea",
+    "stock": 30,
+    "image": "https://images.footballfanatics.com/chelsea/chelsea-nike-home-stadium-shirt-2025-26_ss5_p-202492465+pv-5+u-2gcvqxc9vlx6povideuj+v-dwxcvwlvczc98nrqywdw.jpg?_hv=2&w=1018"
+  },
+  {
+    "id": 8,
+    "title": "Bayern Munich Home Jersey",
+    "description": "Official Bayern Munich home jersey, red with white details",
+    "price": 550,
+    "color": "Red",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Premium Polyester",
+    "model": 2025,
+    "category": "football-jerseys",
+    "club": "Bayern Munich",
+    "stock": 30,
+    "image": "https://thumblr.uniid.it/product/396691/35e12817bd28.jpg?width=3840&format=webp&q=75"
+  },
+  {
+    "id": 9,
+    "title": "Paris Saint-Germain Home Jersey",
+    "description": "Official PSG home jersey, navy blue with red stripe",
+    "price": 550,
+    "color": "Navy Blue",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Premium Polyester",
+    "model": 2025,
+    "category": "football-jerseys",
+    "club": "PSG",
+    "stock": 35,
+    "image": "https://www.sollymsports.com/wp-content/uploads/2025/07/IMG_7167.webp"
+  },
+  {
+    "id": 10,
+    "title": "Juventus Home Jersey",
+    "description": "Official Juventus home jersey, black and white stripes",
+    "price": 550,
+    "color": "Black & White",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Premium Polyester",
+    "model": 2025,
+    "category": "football-jerseys",
+    "club": "Juventus",
+    "stock": 30,
+    "image": "https://store.juventus.com/images/juventus/products/large/JU25A01.webp"
+  },
+  {
+    "id": 11,
+    "title": "Manchester City Home Jersey",
+    "description": "Official Manchester City home jersey, sky blue",
+    "price": 550,
+    "color": "Sky Blue",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Premium Polyester",
+    "model": 2025,
+    "category": "football-jerseys",
+    "club": "Manchester City",
+    "stock": 35,
+    "image": "https://thumblr.uniid.it/product/436801/13e93f696bff.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Arsenal Home Jersey",
+    "description": "Official Arsenal FC home jersey, red with white sleeves",
+    "price": 550,
+    "color": "Red & White",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Premium Polyester",
+    "model": 2025,
+    "category": "football-jerseys",
+    "club": "Arsenal",
+    "stock": 30,
+    "image": "https://soccerlocker.com.au/cdn/shop/files/Arsenal_25-26_Long_Sleeve_Home_Jersey_Red_JI9536_01_laydown.png?v=1749271782&width=1080"
+  },
+  {
+    "id": 13,
+    "title": "AC Milan Home Jersey",
+    "description": "Official AC Milan home jersey, red and black stripes",
+    "price": 550,
+    "color": "Red & Black",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Premium Polyester",
+    "model": 2025,
+    "category": "football-jerseys",
+    "club": "AC Milan",
+    "stock": 28,
+    "image": "https://store.acmilan.com/cdn/shop/files/779962-A81_01.jpg?v=1747823735"
+  },
+  {
+    "id": 14,
+    "title": "Inter Milan Home Jersey",
+    "description": "Official Inter Milan home jersey, blue and black stripes",
+    "price": 550,
+    "color": "Blue & Black",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Premium Polyester",
+    "model": 2025,
+    "category": "football-jerseys",
+    "club": "Inter Milan",
+    "stock": 28,
+    "image": "https://store.inter.it/images/inter/products/large/IN25A04_13.webp"
+  },
+  {
+    "id": 15,
+    "title": "Atletico Madrid Home Jersey",
+    "description": "Official Atletico Madrid home jersey, red and white stripes",
+    "price": 550,
+    "color": "Red & White",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Premium Polyester",
+    "model": 2025,
+    "category": "football-jerseys",
+    "club": "Atletico Madrid",
+    "stock": 25,
+    "image": "https://img01.ztat.net/article/spp-media-p1/52293e853ab3495c9bec4b7f96e5c030/74dc2e6c2f504284976f76a0dfa3fc9c.jpg?imwidth=762&filter=packshot"
+  },
+  {
+    "id": 16,
+    "title": "Tottenham Home Jersey",
+    "description": "Official Tottenham Hotspur home jersey, white with navy details",
+    "price": 550,
+    "color": "White",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Premium Polyester",
+    "model": 2025,
+    "category": "football-jerseys",
+    "club": "Tottenham",
+    "stock": 25,
+    "image": "https://cdn11.bigcommerce.com/s-5e8c3uvulz/images/stencil/original/products/31351/36706/MHLS25_HOME_STADIUM_LS_SHIRT_1__19546.1748863386.jpg?c=1"
+  },
+  {
+    "id": 17,
+    "title": "Borussia Dortmund Home Jersey",
+    "description": "Official Borussia Dortmund home jersey, yellow and black",
+    "price": 550,
+    "color": "Yellow & Black",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Premium Polyester",
+    "model": 2025,
+    "category": "football-jerseys",
+    "club": "Borussia Dortmund",
+    "stock": 25,
+    "image": "https://www.sollymsports.com/wp-content/uploads/2025/11/DORTMUND-HOME.webp"
+  },
+  {
+    "id": 18,
+    "title": "Al Hilal Home Jersey",
+    "description": "Official Al Hilal home jersey, blue with club badge",
+    "price": 450,
+    "color": "Blue",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Polyester",
+    "model": 2025,
+    "category": "football-jerseys",
+    "club": "Al Hilal",
+    "stock": 30,
+    "image": "https://foot-star.com/wp-content/uploads/2024/08/Maillot-AL-Hilal-Domicile-2024-2025.jpg"
+  },
+  {
+    "id": 19,
+    "title": "Al Nassr Home Jersey",
+    "description": "Official Al Nassr home jersey, yellow with blue details",
+    "price": 450,
+    "color": "Yellow",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Polyester",
+    "model": 2025,
+    "category": "football-jerseys",
+    "club": "Al Nassr",
+    "stock": 30,
+    "image": "https://foot-star.com/wp-content/uploads/2024/08/Maillot-AL-Nassr-Domicile-2024-2025_.jpg"
+  },
+  {
+    "id": 20,
+    "title": "Egypt National Team Jersey",
+    "description": "Official Egypt national team jersey, red with white details",
+    "price": 500,
+    "color": "Red",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Premium Polyester",
+    "model": 2025,
+    "category": "football-jerseys",
+    "club": "Egypt National Team",
+    "stock": 40,
+    "image": "https://store.cafonline.com/cdn/shop/files/Egypt-2025-Home-Jersey-Men.avif?v=1767109859"
+  }
+]

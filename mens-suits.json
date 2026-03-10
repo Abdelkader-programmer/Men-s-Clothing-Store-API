@@ -1,0 +1,296 @@
+[
+  {
+    "id": 1,
+    "title": "Classic Business Suit",
+    "description": "Traditional navy blue business suit perfect for office wear",
+    "price": 1200,
+    "color": "Navy Blue",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Wool Blend",
+    "model": 2025,
+    "category": "mens-suits",
+    "stock": 25,
+    "image": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/66/6590431/1.jpg?8683"
+  },
+  {
+    "id": 2,
+    "title": "Formal Tuxedo Suit",
+    "description": "Elegant black tuxedo with satin lapels for special occasions",
+    "price": 1800,
+    "color": "Black",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Premium Wool with Satin",
+    "model": 2025,
+    "category": "mens-suits",
+    "stock": 15,
+    "image": "https://www.groomsclub.com/cdn/shop/files/black-tuxedo-silver01_550x550.png?v=1706528779"
+  },
+  {
+    "id": 3,
+    "title": "Slim Fit Suit",
+    "description": "Modern slim fit suit in charcoal gray for contemporary style",
+    "price": 1350,
+    "color": "Charcoal Gray",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Super 120s Wool",
+    "model": 2025,
+    "category": "mens-suits",
+    "stock": 30,
+    "image": "https://andreemilio.com/wp-content/uploads/2020/02/DeWatermark.ai_1753178155598.jpeg"
+  },
+  {
+    "id": 4,
+    "title": "Wedding Suit",
+    "description": "Sophisticated light gray suit perfect for weddings",
+    "price": 1500,
+    "color": "Light Gray",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Italian Wool",
+    "model": 2026,
+    "category": "mens-suits",
+    "stock": 20,
+    "image": "https://www.groomsclub.com/cdn/shop/files/silver-royal-blue01.png?v=1704979008"
+  },
+  {
+    "id": 5,
+    "title": "Three-Piece Suit",
+    "description": "Classic three-piece suit with vest in rich brown color",
+    "price": 1650,
+    "color": "Brown",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Fall/Winter",
+    "material": "Tweed Wool",
+    "model": 2025,
+    "category": "mens-suits",
+    "stock": 18,
+    "image": "https://sc04.alicdn.com/kf/H3237088dd6f048bcb844ba8fab156ff43.png"
+  },
+  {
+    "id": 6,
+    "title": "Double Breasted Suit",
+    "description": "Sophisticated double breasted suit in navy blue",
+    "price": 1400,
+    "color": "Navy",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Wool Blend",
+    "model": 2025,
+    "category": "mens-suits",
+    "stock": 22,
+    "image": "https://herrwidman.com/cdn/shop/files/DSCF9502.jpg?v=1730276828&width=2000"
+  },
+  {
+    "id": 7,
+    "title": "Pinstripe Suit",
+    "description": "Classic pinstripe suit for executive business wear",
+    "price": 1550,
+    "color": "Dark Blue",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Pinstripe Wool",
+    "model": 2025,
+    "category": "mens-suits",
+    "stock": 24,
+    "image": "https://www.studiosuits.com/cdn/shop/files/hardyminnisroyalbluepinstripewlsuitlk.jpg?v=1722847246"
+  },
+  {
+    "id": 8,
+    "title": "Summer Linen Suit",
+    "description": "Lightweight linen suit perfect for summer events",
+    "price": 980,
+    "color": "Beige",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Summer",
+    "material": "100% Linen",
+    "model": 2025,
+    "category": "mens-suits",
+    "stock": 28,
+    "image": "https://www.makeyourownjeans.com/images/suits/solbiatistonebeigelinsuitlook.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Velvet Suit",
+    "description": "Luxurious burgundy velvet suit for evening events",
+    "price": 2200,
+    "color": "Burgundy",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Fall/Winter",
+    "material": "Cotton Velvet",
+    "model": 2026,
+    "category": "mens-suits",
+    "stock": 12,
+    "image": "https://andreemilio.com/wp-content/uploads/2023/10/Red-Velvet-Tuxedo-Jacket.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Casual Blazer Suit",
+    "description": "Relaxed blazer suit for smart casual occasions",
+    "price": 850,
+    "color": "Khaki",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Cotton Blend",
+    "model": 2025,
+    "category": "mens-suits",
+    "stock": 35,
+    "image": "https://cdn.faire.com/fastly/2e7dd0b98e870daafa939689776c087d509a5f7cee8362605c791251e1399784.jpeg"
+  },
+  {
+    "id": 11,
+    "title": "Checkered Suit",
+    "description": "Stylish checkered pattern suit for fashion-forward men",
+    "price": 1300,
+    "color": "Gray & Black",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Wool Check Pattern",
+    "model": 2026,
+    "category": "mens-suits",
+    "stock": 16,
+    "image": "https://img.kwcdn.com/product/algo_check/auto/f88dce3548084be454ec11fcdd88791f1726215646610.jpg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp"
+  },
+  {
+    "id": 12,
+    "title": "Dinner Jacket Suit",
+    "description": "Elegant midnight blue dinner jacket for formal dining",
+    "price": 1750,
+    "color": "Midnight Blue",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Mohair Wool",
+    "model": 2026,
+    "category": "mens-suits",
+    "stock": 14,
+    "image": "https://anthonysinclair.com/cdn/shop/products/MidnightBlueDinnerSuitWebReady_1800x1800copy_600x600_crop_center.jpg?v=1665688193"
+  },
+  {
+    "id": 13,
+    "title": "Corduroy Suit",
+    "description": "Vintage-inspired corduroy suit in olive green",
+    "price": 1100,
+    "color": "Olive Green",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Fall/Winter",
+    "material": "Cotton Corduroy",
+    "model": 2025,
+    "category": "mens-suits",
+    "stock": 20,
+    "image": "https://www.studiosuits.com/cdn/shop/files/olivegreencordurysuitlook_1.jpg?v=1758004364"
+  },
+  {
+    "id": 14,
+    "title": "Seersucker Suit",
+    "description": "Classic seersucker suit perfect for summer weddings",
+    "price": 750,
+    "color": "Light Blue",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Summer",
+    "material": "Cotton Seersucker",
+    "model": 2025,
+    "category": "mens-suits",
+    "stock": 26,
+    "image": "https://dqp736wsu6w3m.cloudfront.net/s3bucket/og/feed/img/man_suit3/937806/without_model_small.png"
+  },
+  {
+    "id": 15,
+    "title": "Smoking Jacket Suit",
+    "description": "Luxurious black velvet smoking jacket for exclusive events",
+    "price": 2500,
+    "color": "Black Velvet",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Silk Velvet",
+    "model": 2026,
+    "category": "mens-suits",
+    "stock": 8,
+    "image": "https://m.media-amazon.com/images/I/41iQt0PpzQL._AC_UY1000_.jpg"
+  }
+]

@@ -1,0 +1,332 @@
+[
+  {
+    "id": 1,
+    "title": "Adidas Champions League Ball",
+    "description": "Official Champions League match ball with premium quality",
+    "price": 800,
+    "color": "White & Blue",
+    "size": [
+      "5"
+    ],
+    "season": "All Season",
+    "material": "Premium Synthetic",
+    "model": 2025,
+    "category": "football-balls",
+    "stock": 30,
+    "image": "https://thumblr.uniid.it/product/396164/a9ef43692a0e.jpg?width=3840&format=webp&q=75"
+  },
+  {
+    "id": 2,
+    "title": "Nike Premier League Ball",
+    "description": "Official Premier League match ball",
+    "price": 750,
+    "color": "White & Purple",
+    "size": [
+      "5"
+    ],
+    "season": "All Season",
+    "material": "Premium Synthetic",
+    "model": 2025,
+    "category": "football-balls",
+    "stock": 30,
+    "image": "https://i.ebayimg.com/00/s/MTU4MVgxNTcy/z/l4sAAOSw~VFnGfa~/$_57.JPG?set_id=880000500F"
+  },
+  {
+    "id": 3,
+    "title": "Adidas World Cup Ball",
+    "description": "Official FIFA World Cup ball",
+    "price": 900,
+    "color": "White & Gold",
+    "size": [
+      "5"
+    ],
+    "season": "All Season",
+    "material": "Premium Synthetic",
+    "model": 2026,
+    "category": "football-balls",
+    "stock": 25,
+    "image": "https://admin.jerseyfreakbd.com/public/uploads/all/QdHVzqydP0zRg6feXxyYF6LLdS1AJouGyeKTzq17.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Puma Training Ball",
+    "description": "High quality training football",
+    "price": 400,
+    "color": "Yellow & Black",
+    "size": [
+      "5"
+    ],
+    "season": "All Season",
+    "material": "Synthetic",
+    "model": 2025,
+    "category": "football-balls",
+    "stock": 50,
+    "image": "https://resources.mandmdirect.com/Images/_default/p/u/3/pu36380_1_cloudzoom.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Nike Strike Team Ball",
+    "description": "Durable team training football",
+    "price": 350,
+    "color": "White & Red",
+    "size": [
+      "5"
+    ],
+    "season": "All Season",
+    "material": "Synthetic",
+    "model": 2025,
+    "category": "football-balls",
+    "stock": 50,
+    "image": "https://www.nikys-sports.com/cdn/shop/products/CU8062-100-PHSBZ001.jpg?v=1662142042&width=1024"
+  },
+  {
+    "id": 6,
+    "title": "Al Ahly Club Flag",
+    "description": "Official Al Ahly SC flag, large size",
+    "price": 200,
+    "color": "Red",
+    "size": [
+      "Large"
+    ],
+    "season": "All Season",
+    "material": "Polyester",
+    "model": 2025,
+    "category": "club-flags",
+    "club": "Al Ahly",
+    "stock": 40,
+    "image": "https://eg.sparkstore.net/cdn/shop/files/42899cea-838d-44ec-b8df-4dc420355609_19b66952-e433-4ee8-a3fe-12f264db45dc.webp?v=1739201523"
+  },
+  {
+    "id": 7,
+    "title": "Zamalek Club Flag",
+    "description": "Official Zamalek SC flag, large size",
+    "price": 200,
+    "color": "White",
+    "size": [
+      "Large"
+    ],
+    "season": "All Season",
+    "material": "Polyester",
+    "model": 2025,
+    "category": "club-flags",
+    "club": "Zamalek",
+    "stock": 40,
+    "image": "https://m.media-amazon.com/images/I/61K01d7HmJL._AC_UF1000,1000_QL80_.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Real Madrid Club Flag",
+    "description": "Official Real Madrid flag, large size",
+    "price": 250,
+    "color": "White",
+    "size": [
+      "Large"
+    ],
+    "season": "All Season",
+    "material": "Polyester",
+    "model": 2025,
+    "category": "club-flags",
+    "club": "Real Madrid",
+    "stock": 30,
+    "image": "https://i.pinimg.com/1200x/5b/74/b2/5b74b28865f5ea81c4a2db180c3940ac.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Barcelona Club Flag",
+    "description": "Official FC Barcelona flag, large size",
+    "price": 250,
+    "color": "Blue & Red",
+    "size": [
+      "Large"
+    ],
+    "season": "All Season",
+    "material": "Polyester",
+    "model": 2025,
+    "category": "club-flags",
+    "club": "Barcelona",
+    "stock": 30,
+    "image": "https://m.media-amazon.com/images/I/71ZF5Nt-TgL.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Manchester United Club Flag",
+    "description": "Official Manchester United flag, large size",
+    "price": 250,
+    "color": "Red",
+    "size": [
+      "Large"
+    ],
+    "season": "All Season",
+    "material": "Polyester",
+    "model": 2025,
+    "category": "club-flags",
+    "club": "Manchester United",
+    "stock": 25,
+    "image": "https://st4.depositphotos.com/11911276/22932/i/450/depositphotos_229327764-stock-photo-usa-new-york-12-august.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Liverpool Club Flag",
+    "description": "Official Liverpool FC flag, large size",
+    "price": 250,
+    "color": "Red",
+    "size": [
+      "Large"
+    ],
+    "season": "All Season",
+    "material": "Polyester",
+    "model": 2025,
+    "category": "club-flags",
+    "club": "Liverpool",
+    "stock": 25,
+    "image": "https://i.pinimg.com/1200x/e4/c2/1c/e4c21c2b95490c0217e68040b85d70b5.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Chelsea Club Flag",
+    "description": "Official Chelsea FC flag, large size",
+    "price": 250,
+    "color": "Blue",
+    "size": [
+      "Large"
+    ],
+    "season": "All Season",
+    "material": "Polyester",
+    "model": 2025,
+    "category": "club-flags",
+    "club": "Chelsea",
+    "stock": 20,
+    "image": "https://m.media-amazon.com/images/I/41zB+fICSZS.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Bayern Munich Club Flag",
+    "description": "Official Bayern Munich flag, large size",
+    "price": 250,
+    "color": "Red & White",
+    "size": [
+      "Large"
+    ],
+    "season": "All Season",
+    "material": "Polyester",
+    "model": 2025,
+    "category": "club-flags",
+    "club": "Bayern Munich",
+    "stock": 20,
+    "image": "https://thumblr.uniid.it/product/153954/e6697afc7783.jpg?width=3840&format=webp&q=75"
+  },
+  {
+    "id": 14,
+    "title": "PSG Club Flag",
+    "description": "Official Paris Saint-Germain flag, large size",
+    "price": 250,
+    "color": "Navy Blue",
+    "size": [
+      "Large"
+    ],
+    "season": "All Season",
+    "material": "Polyester",
+    "model": 2025,
+    "category": "club-flags",
+    "club": "PSG",
+    "stock": 20,
+    "image": "https://m.media-amazon.com/images/I/71a0YJiYLOL._UF1000,1000_QL80_.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Juventus Club Flag",
+    "description": "Official Juventus flag, large size",
+    "price": 250,
+    "color": "Black & White",
+    "size": [
+      "Large"
+    ],
+    "season": "All Season",
+    "material": "Polyester",
+    "model": 2025,
+    "category": "club-flags",
+    "club": "Juventus",
+    "stock": 18,
+    "image": "https://store.juventus.com/images/juventus/products/large/JU24N10.webp"
+  },
+  {
+    "id": 16,
+    "title": "Nike Sports Backpack",
+    "description": "Large sports backpack with multiple compartments",
+    "price": 350,
+    "color": "Black",
+    "size": [
+      "One Size"
+    ],
+    "season": "All Season",
+    "material": "Polyester",
+    "model": 2025,
+    "category": "sports-bags",
+    "stock": 40,
+    "image": "https://m.media-amazon.com/images/I/31UPDBorvDL._AC_SY1000_.jpg"
+  },
+  {
+    "id": 17,
+    "title": "Adidas Gym Bag",
+    "description": "Durable gym bag with shoe compartment",
+    "price": 400,
+    "color": "Navy Blue",
+    "size": [
+      "One Size"
+    ],
+    "season": "All Season",
+    "material": "Polyester",
+    "model": 2025,
+    "category": "sports-bags",
+    "stock": 35,
+    "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/fa1567df59b84cc88135abc779dafa02_faec/TRAINING_DEFENDER_DUFFLE_BAG_MEDIUM_Blue_KC6751_db01_00_standard.jpg"
+  },
+  {
+    "id": 18,
+    "title": "Puma Training Bag",
+    "description": "Medium training bag with adjustable strap",
+    "price": 300,
+    "color": "Black & Red",
+    "size": [
+      "One Size"
+    ],
+    "season": "All Season",
+    "material": "Polyester",
+    "model": 2025,
+    "category": "sports-bags",
+    "stock": 35,
+    "image": "https://eg.puma.com/cdn/shop/files/7685701-03_2000x.webp?v=1757544049"
+  },
+  {
+    "id": 19,
+    "title": "Nike Duffel Bag",
+    "description": "Large duffel bag for sports equipment",
+    "price": 450,
+    "color": "Gray",
+    "size": [
+      "One Size"
+    ],
+    "season": "All Season",
+    "material": "Polyester",
+    "model": 2025,
+    "category": "sports-bags",
+    "stock": 30,
+    "image": "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/AP1738s.jpg?im=Resize,width=750"
+  },
+  {
+    "id": 20,
+    "title": "Adidas Team Bag",
+    "description": "Extra large team bag with wheels",
+    "price": 600,
+    "color": "Black",
+    "size": [
+      "One Size"
+    ],
+    "season": "All Season",
+    "material": "Polyester",
+    "model": 2025,
+    "category": "sports-bags",
+    "stock": 20,
+    "image": "https://image-cdn.ubuy.com/adidas-unisex-team-issue-sports-duffel/400_400_100/69435d384e0569aeee01d39f.jpg"
+  }
+]

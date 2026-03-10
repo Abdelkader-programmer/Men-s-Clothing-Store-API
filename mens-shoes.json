@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "title": "Oxford Dress Shoes",
+    "description": "Classic black oxford dress shoes perfect for formal occasions",
+    "price": 650,
+    "color": "Black",
+    "size": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "season": "All Season",
+    "material": "Genuine Leather",
+    "model": 2025,
+    "category": "mens-shoes",
+    "stock": 30,
+    "image": "https://www.beckettsimonon.com/cdn/shop/products/color_black_1_dean_oxford.jpg?v=1762198153"
+  },
+  {
+    "id": 2,
+    "title": "Loafers Shoes",
+    "description": "Comfortable brown leather loafers for business casual wear",
+    "price": 480,
+    "color": "Brown",
+    "size": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "season": "All Season",
+    "material": "Leather",
+    "model": 2025,
+    "category": "mens-shoes",
+    "stock": 35,
+    "image": "https://marquinashoemaker.com/cdn/shop/files/two-slant-side-6_2000x.jpg?v=1747024804"
+  },
+  {
+    "id": 3,
+    "title": "Derby Shoes",
+    "description": "Elegant navy blue derby shoes with modern styling",
+    "price": 580,
+    "color": "Navy Blue",
+    "size": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "season": "All Season",
+    "material": "Premium Leather",
+    "model": 2025,
+    "category": "mens-shoes",
+    "stock": 25,
+    "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/90/691303/1.jpg?1612"
+  },
+  {
+    "id": 4,
+    "title": "Monk Strap Shoes",
+    "description": "Stylish tan monk strap shoes with buckle closure",
+    "price": 720,
+    "color": "Tan",
+    "size": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "season": "All Season",
+    "material": "Italian Leather",
+    "model": 2026,
+    "category": "mens-shoes",
+    "stock": 20,
+    "image": "https://www.thejacketmaker.fr/cdn/shop/products/01_Boston_Double_Monk_Strap_Tan_Leather_Shoes_Front_Titled-2-1674648320144_fb4d2de1-49b0-46c9-b18e-c1d8ef1896d6.webp?v=1756910115"
+  },
+  {
+    "id": 5,
+    "title": "Brogue Shoes",
+    "description": "Traditional burgundy brogue shoes with decorative perforations",
+    "price": 620,
+    "color": "Burgundy",
+    "size": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "season": "All Season",
+    "material": "Leather with Brogue Details",
+    "model": 2025,
+    "category": "mens-shoes",
+    "stock": 28,
+    "image": "https://www.oliversweeney.com/cdn/shop/files/Saunders_Burgundy_1_sq1.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Chelsea Boots Shoes",
+    "description": "Classic black Chelsea boots with elastic side panels",
+    "price": 550,
+    "color": "Black",
+    "size": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "season": "Fall/Winter",
+    "material": "Leather with Elastic",
+    "model": 2025,
+    "category": "mens-shoes",
+    "stock": 32,
+    "image": "https://www.tamsshoemaker.com/cdn/shop/files/24_copy_1.jpg?v=1761125973&width=2048"
+  },
+  {
+    "id": 7,
+    "title": "Desert Boots Shoes",
+    "description": "Casual suede desert boots perfect for weekend wear",
+    "price": 420,
+    "color": "Suede Brown",
+    "size": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "season": "All Season",
+    "material": "Suede Leather",
+    "model": 2025,
+    "category": "mens-shoes",
+    "stock": 38,
+    "image": "https://www.tods.com/fashion/tods/XXM59K00D80RE0S611/XXM59K00D80RE0S611-03.jpg?imwidth=810"
+  },
+  {
+    "id": 8,
+    "title": "Boat Shoes",
+    "description": "Classic boat shoes with non-slip sole for casual wear",
+    "price": 380,
+    "color": "Navy & White",
+    "size": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "season": "Summer",
+    "material": "Canvas and Leather",
+    "model": 2025,
+    "category": "mens-shoes",
+    "stock": 40,
+    "image": "https://doublemonk.com/cdn/shop/products/quoddy_classicboat_navy_2.jpg?v=1589796483"
+  },
+  {
+    "id": 9,
+    "title": "Wingtip Shoes",
+    "description": "Sophisticated gray wingtip shoes with classic design",
+    "price": 680,
+    "color": "Gray",
+    "size": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "season": "All Season",
+    "material": "Premium Leather",
+    "model": 2026,
+    "category": "mens-shoes",
+    "stock": 22,
+    "image": "https://italianshoescompany.com/cdn/shop/products/72-min-3.jpg?v=1678699290&width=600"
+  },
+  {
+    "id": 10,
+    "title": "Driving Shoes",
+    "description": "Comfortable white driving shoes with rubber sole dots",
+    "price": 320,
+    "color": "White",
+    "size": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "season": "All Season",
+    "material": "Synthetic Leather",
+    "model": 2025,
+    "category": "mens-shoes",
+    "stock": 45,
+    "image": "https://arthurknight.com/media/catalog/product/cache/8723b12f6326e9bdc6bc191d0c49a6b8/i/v/ivory-white-womens-italian-driving-shoe-moccasin-1_1.jpg"
+  }
+]

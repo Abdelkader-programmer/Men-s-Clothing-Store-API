@@ -1,0 +1,319 @@
+[
+  {
+    "id": 1,
+    "title": "Classic Leather Slippers",
+    "description": "Premium leather slippers perfect for outdoor casual wear",
+    "price": 180,
+    "color": "Brown",
+    "size": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "season": "All Season",
+    "material": "Genuine Leather",
+    "model": 2025,
+    "category": "mens-slippers-sandals",
+    "stock": 35,
+    "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/72/5900331/1.jpg?9453"
+  },
+  {
+    "id": 2,
+    "title": "Rubber Flip Slippers",
+    "description": "Comfortable rubber flip flops for beach and casual outings",
+    "price": 45,
+    "color": "Black",
+    "size": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "season": "Summer",
+    "material": "Rubber",
+    "model": 2025,
+    "category": "mens-slippers-sandals",
+    "stock": 60,
+    "image": "https://www.havaianas-store.com/dw/image/v2/BLPJ_PRD/on/demandware.static/-/Sites-siteMasterCatalog_Havaianas/default/dw59bf06ea/images/2025/4148756_0090_A.jpg?nosw=600&sh=507"
+  },
+  {
+    "id": 3,
+    "title": "Sport Slippers",
+    "description": "Athletic slippers with comfortable sole for outdoor activities",
+    "price": 120,
+    "color": "Navy Blue",
+    "size": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "season": "Summer",
+    "material": "Synthetic with Velcro",
+    "model": 2025,
+    "category": "mens-slippers-sandals",
+    "stock": 40,
+    "image": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/73/914298/1.jpg?9669"
+  },
+  {
+    "id": 4,
+    "title": "Canvas Slippers",
+    "description": "Casual canvas slippers with rope sole for comfort",
+    "price": 95,
+    "color": "Beige",
+    "size": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "season": "Summer",
+    "material": "Canvas with Rope",
+    "model": 2025,
+    "category": "mens-slippers-sandals",
+    "stock": 30,
+    "image": "https://nostrain.in/cdn/shop/files/men-canvas-wave-print-sugar-sliders-sandy-beige_1.webp?v=1717653962&width=2000"
+  },
+  {
+    "id": 5,
+    "title": "Crocs Style Slippers",
+    "description": "Comfortable foam clogs perfect for garden and casual wear",
+    "price": 65,
+    "color": "Green",
+    "size": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "season": "All Season",
+    "material": "EVA Foam",
+    "model": 2025,
+    "category": "mens-slippers-sandals",
+    "stock": 50,
+    "image": "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/AT3956s3.jpg?im=Resize,width=750"
+  },
+  {
+    "id": 6,
+    "title": "Slide Slippers",
+    "description": "Minimalist slide sandals for pool and casual wear",
+    "price": 55,
+    "color": "White",
+    "size": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "season": "Summer",
+    "material": "Synthetic Rubber",
+    "model": 2025,
+    "category": "mens-slippers-sandals",
+    "stock": 45,
+    "image": "https://i5.walmartimages.com/asr/fe058740-a3d3-4d7e-a325-c44cf147e54a.62c4e149988588a9749def9bfba48131.jpeg?odnHeight=328&odnWidth=328&odnBg=FFFFFF"
+  },
+  {
+    "id": 7,
+    "title": "Hiking Slippers",
+    "description": "Durable hiking sandals with toe protection",
+    "price": 150,
+    "color": "Gray",
+    "size": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "season": "Summer",
+    "material": "Synthetic with Rubber Sole",
+    "model": 2025,
+    "category": "mens-slippers-sandals",
+    "stock": 25,
+    "image": "https://contents.mediadecathlon.com/p2406040/1cr1/k$4e46915ea2f95681567c260c79b49228/walking-sandals-nh100-men-s.jpg?format=auto&f=1024x0"
+  },
+  {
+    "id": 8,
+    "title": "Suede Slippers",
+    "description": "Soft moccasin-style slippers suitable for light outdoor use",
+    "price": 110,
+    "color": "Tan",
+    "size": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "season": "All Season",
+    "material": "Suede Leather",
+    "model": 2025,
+    "category": "mens-slippers-sandals",
+    "stock": 32,
+    "image": "https://www.webury.com/media/catalog/product/cache/a11b6893555e7d42fa4f67cf12d2e8dc/e/o/eol08_mens_luxury_sheepskin_slippers.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Beach Slippers",
+    "description": "Quick-dry beach slippers with drainage holes",
+    "price": 75,
+    "color": "Blue",
+    "size": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "season": "Summer",
+    "material": "Water-resistant Synthetic",
+    "model": 2025,
+    "category": "mens-slippers-sandals",
+    "stock": 38,
+    "image": "https://m.media-amazon.com/images/I/31wTkxFz+sL._AC_.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Outdoor Slippers",
+    "description": "Versatile outdoor slippers with anti-slip sole",
+    "price": 85,
+    "color": "Khaki",
+    "size": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "season": "All Season",
+    "material": "Canvas with Rubber Sole",
+    "model": 2025,
+    "category": "mens-slippers-sandals",
+    "stock": 42,
+    "image": "https://zenminded.uk/cdn/shop/files/subu-nannen-slippers-khaki-green-winter-sandals-3_3eab0f73-eb94-4504-8b45-5afa0c1596bb.jpg?v=1763847497"
+  },
+  {
+    "id": 11,
+    "title": "Leather Slippers",
+    "description": "Premium leather sandals with adjustable straps",
+    "price": 140,
+    "color": "Brown",
+    "size": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "season": "Summer",
+    "material": "Genuine Leather",
+    "model": 2025,
+    "category": "mens-slippers-sandals",
+    "stock": 28,
+    "image": "https://assets.manufactum.de/p/204/204551/204551_01.jpg/mens-leather-sandal.jpg?w=400&scale.option=fill&h=0&canvas.aspectratio=1%3A1&canvas.width=100.0000%25&canvas.height=167.7852%25&q=90"
+  },
+  {
+    "id": 12,
+    "title": "Gladiator Slippers",
+    "description": "Stylish gladiator sandals with multiple straps",
+    "price": 160,
+    "color": "Black",
+    "size": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "season": "Summer",
+    "material": "Leather with Metal Buckles",
+    "model": 2026,
+    "category": "mens-slippers-sandals",
+    "stock": 20,
+    "image": "https://ph-live-01.slatic.net/p/33845c62c109a3bd690eddacf5788593.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Fisherman Slippers",
+    "description": "Classic fisherman sandals with closed toe design",
+    "price": 125,
+    "color": "Tan",
+    "size": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "season": "Summer",
+    "material": "Leather",
+    "model": 2025,
+    "category": "mens-slippers-sandals",
+    "stock": 35,
+    "image": "https://sreeleathers.com/cdn/shop/files/104216_599_3_copy_800x.jpg?v=1744292104"
+  },
+  {
+    "id": 14,
+    "title": "Water Slippers",
+    "description": "Quick-dry water sandals perfect for beach activities",
+    "price": 90,
+    "color": "Blue",
+    "size": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "season": "Summer",
+    "material": "Synthetic Mesh",
+    "model": 2025,
+    "category": "mens-slippers-sandals",
+    "stock": 40,
+    "image": "https://m.media-amazon.com/images/I/71+V9+6iOWL._AC_SL1500_.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Casual Slippers",
+    "description": "Comfortable casual sandals for everyday wear",
+    "price": 105,
+    "color": "Gray",
+    "size": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "season": "Summer",
+    "material": "Synthetic with Cushioned Sole",
+    "model": 2025,
+    "category": "mens-slippers-sandals",
+    "stock": 32,
+    "image": "https://activaboualaa.com/cdn/shop/files/www.activaboualaa.comSD25003_1.jpg?v=1744803219"
+  }
+]

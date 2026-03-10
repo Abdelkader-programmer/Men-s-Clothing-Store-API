@@ -1,0 +1,479 @@
+[
+  {
+    "id": 1,
+    "title": "Summer Cotton Shirt",
+    "description": "Classic white cotton shirt, lightweight and breathable for summer",
+    "price": 280,
+    "color": "White",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Summer",
+    "material": "100% Cotton",
+    "model": 2025,
+    "category": "mens-shirts",
+    "stock": 35,
+    "image": "https://m.media-amazon.com/images/I/512ZzzXpRsL._AC_UY1000_.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Summer Linen Shirt",
+    "description": "Breathable linen shirt perfect for hot summer days",
+    "price": 320,
+    "color": "Light Blue",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Summer",
+    "material": "100% Linen",
+    "model": 2025,
+    "category": "mens-shirts",
+    "stock": 28,
+    "image": "https://cdn.shopify.com/s/files/1/0267/0107/0380/files/ed465492-c0c1-4afb-8674-143bde127342.jpg?v=1726759750"
+  },
+  {
+    "id": 3,
+    "title": "Summer Short Sleeve Shirt",
+    "description": "Casual short sleeve shirt, comfortable cotton for summer",
+    "price": 250,
+    "color": "Navy",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "season": "Summer",
+    "material": "Cotton Blend",
+    "model": 2025,
+    "category": "mens-shirts",
+    "stock": 32,
+    "image": "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/427114s4.jpg?im=Resize,width=750"
+  },
+  {
+    "id": 4,
+    "title": "Summer Striped Shirt",
+    "description": "Classic striped shirt with vertical lines, perfect for summer",
+    "price": 290,
+    "color": "Blue & White",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Summer",
+    "material": "Cotton Poplin",
+    "model": 2025,
+    "category": "mens-shirts",
+    "stock": 25,
+    "image": "https://i5.walmartimages.com/seo/YYDGH-Men-s-Striped-Button-Down-Shirts-Casual-Short-Sleeve-Hawaiian-Summer-Beach-Shirt-Light-Blue-XL_236f6dbc-247f-4889-a809-e28ed6de7e68.795136316a3fe16ba19835093c813da6.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
+  },
+  {
+    "id": 5,
+    "title": "Summer Casual Shirt",
+    "description": "Relaxed fit casual shirt, lightweight for summer wear",
+    "price": 270,
+    "color": "Beige",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Summer",
+    "material": "Cotton Twill",
+    "model": 2025,
+    "category": "mens-shirts",
+    "stock": 30,
+    "image": "https://i5.walmartimages.com/seo/Brnmxoke-Mens-Cotton-Linen-T-Shirts-Shirts-Casual-Summer-Beach-Button-Down-Short-Sleeve-Shirts-Business-Work-Office-Dress-Shirts-Beige-XXXXL_5db0d127-bc63-4253-a134-cb35c4d0218b.6419d98ba3d960ccf5a6f40533862dbe.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
+  },
+  {
+    "id": 6,
+    "title": "Summer Classic Shirt",
+    "description": "Classic polo shirt with collar, comfortable for summer",
+    "price": 240,
+    "color": "Gray",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Summer",
+    "material": "Pique Cotton",
+    "model": 2025,
+    "category": "mens-shirts",
+    "stock": 40,
+    "image": "https://tenuedeattire.com/cdn/shop/files/TDARMD2025-022_1_9e302063-bfa3-4af7-b71f-4053bc4cf594.jpg?v=1753430240"
+  },
+  {
+    "id": 7,
+    "title": "Summer Hawaiian Shirt",
+    "description": "Tropical print Hawaiian shirt, perfect for vacation",
+    "price": 310,
+    "color": "Green",
+    "size": [
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Summer",
+    "material": "Rayon",
+    "model": 2026,
+    "category": "mens-shirts",
+    "stock": 20,
+    "image": "https://ae01.alicdn.com/kf/S4043902d585f4fd68323c645388be1ade.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Summer Oxford Shirt",
+    "description": "Light pink oxford shirt, elegant and breathable",
+    "price": 300,
+    "color": "Pink",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "season": "Summer",
+    "material": "Oxford Cotton",
+    "model": 2025,
+    "category": "mens-shirts",
+    "stock": 22,
+    "image": "https://hisdern.com/cdn/shop/files/HZS0797K3D-coral-pink-linen-shirts-1.jpg?v=1748248592&width=2048"
+  },
+  {
+    "id": 9,
+    "title": "Summer Chambray Shirt",
+    "description": "Soft chambray shirt with relaxed fit for summer",
+    "price": 285,
+    "color": "Light Gray",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Summer",
+    "material": "Chambray Cotton",
+    "model": 2025,
+    "category": "mens-shirts",
+    "stock": 26,
+    "image": "https://paulmalone.com/cdn/shop/products/Greyc.jpg?v=1652452921"
+  },
+  {
+    "id": 10,
+    "title": "Summer Linen Blend Shirt",
+    "description": "Elegant cream colored linen blend shirt for summer",
+    "price": 330,
+    "color": "Cream",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Summer",
+    "material": "Linen Blend",
+    "model": 2026,
+    "category": "mens-shirts",
+    "stock": 18,
+    "image": "https://image.hm.com/assets/hm/bf/9f/bf9f3aee8e5f1f9c050489aeccaa53933f35e87f.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Winter Flannel Shirt",
+    "description": "Warm flannel shirt with classic red plaid pattern",
+    "price": 380,
+    "color": "Red Plaid",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Winter",
+    "material": "Cotton Flannel",
+    "model": 2025,
+    "category": "mens-shirts",
+    "stock": 35,
+    "image": "https://kieljamespatrick.com/cdn/shop/files/KJP_Barnwood_Creek_Kids_Flannel_Shirt_1024x.jpg?v=1760984132"
+  },
+  {
+    "id": 12,
+    "title": "Winter Long Sleeve Shirt",
+    "description": "Thermal long sleeve shirt, perfect base layer for winter",
+    "price": 320,
+    "color": "Black",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Winter",
+    "material": "Thermal Cotton",
+    "model": 2025,
+    "category": "mens-shirts",
+    "stock": 40,
+    "image": "https://tree-stores.com/cdn/shop/files/Gemini_Generated_Image_ua95vyua95vyua95.png?v=1769257026&width=533"
+  },
+  {
+    "id": 13,
+    "title": "Winter Corduroy Shirt",
+    "description": "Thick corduroy shirt with warm texture for winter",
+    "price": 420,
+    "color": "Brown",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Winter",
+    "material": "Cotton Corduroy",
+    "model": 2025,
+    "category": "mens-shirts",
+    "stock": 28,
+    "image": "https://img.joomcdn.net/6565d3caa2d3046fa3b373a6e0b0e39d72f4e6e4_original.jpeg"
+  },
+  {
+    "id": 14,
+    "title": "Winter Wool Shirt",
+    "description": "Premium wool shirt for maximum warmth in winter",
+    "price": 480,
+    "color": "Charcoal",
+    "size": [
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Winter",
+    "material": "Merino Wool",
+    "model": 2026,
+    "category": "mens-shirts",
+    "stock": 20,
+    "image": "https://nomanwalksalone.com/cdn/shop/files/Seuvas_Made_in_Japan_Fall_Winter_2025_FW25_Open_collar_shirt_in_charcoal_lofty_wool_8_300x300.jpg?v=1761191928"
+  },
+  {
+    "id": 15,
+    "title": "Winter Denim Shirt",
+    "description": "Heavy denim shirt with fleece lining for winter",
+    "price": 450,
+    "color": "Dark Blue",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Winter",
+    "material": "Denim Cotton",
+    "model": 2025,
+    "category": "mens-shirts",
+    "stock": 25,
+    "image": "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/N70701s5.jpg?im=Resize,width=750"
+  },
+  {
+    "id": 16,
+    "title": "Winter Plaid Shirt",
+    "description": "Thick plaid shirt with green and black pattern",
+    "price": 390,
+    "color": "Green & Black",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "season": "Winter",
+    "material": "Cotton Flannel",
+    "model": 2025,
+    "category": "mens-shirts",
+    "stock": 32,
+    "image": "https://ae01.alicdn.com/kf/HTB1XOsIadzvK1RkSnfoq6zMwVXa6.jpg"
+  },
+  {
+    "id": 17,
+    "title": "Winter Henley Shirt",
+    "description": "Long sleeve henley with button placket for winter",
+    "price": 350,
+    "color": "Navy",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Winter",
+    "material": "Heavy Cotton",
+    "model": 2025,
+    "category": "mens-shirts",
+    "stock": 30,
+    "image": "https://m.media-amazon.com/images/I/61gp92s3A5L._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "id": 18,
+    "title": "Winter Warm Shirt",
+    "description": "Warm turtleneck shirt for cold winter days",
+    "price": 370,
+    "color": "Gray",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Winter",
+    "material": "Cotton Blend",
+    "model": 2025,
+    "category": "mens-shirts",
+    "stock": 28,
+    "image": "https://m.media-amazon.com/images/I/71MRWIdyRHL._AC_SX342_.jpg"
+  },
+  {
+    "id": 19,
+    "title": "Winter Sherpa Shirt",
+    "description": "Shirt with sherpa lining for extra warmth",
+    "price": 520,
+    "color": "Burgundy",
+    "size": [
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Winter",
+    "material": "Cotton with Sherpa",
+    "model": 2026,
+    "category": "mens-shirts",
+    "stock": 18,
+    "image": "https://americantall.com/cdn/shop/files/American-Tall-Men-Sherpa-Shirt-Jacket-Burgundy-and-Navy-Plaid-Off-Fig.jpg?v=1759790460&width=500"
+  },
+  {
+    "id": 20,
+    "title": "Winter Quilted Shirt",
+    "description": "Quilted shirt jacket for maximum winter protection",
+    "price": 550,
+    "color": "Olive",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Winter",
+    "material": "Quilted Cotton",
+    "model": 2026,
+    "category": "mens-shirts",
+    "stock": 15,
+    "image": "https://dubarry.com/cdn/shop/files/mens-quilted-jacket-olive-mountusher-422209-1.jpg?v=1705668864"
+  },
+  {
+    "id": 21,
+    "title": "Winter Cashmere Shirt",
+    "description": "Luxury cashmere shirt for elegant winter wear",
+    "price": 680,
+    "color": "Camel",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Winter",
+    "material": "100% Cashmere",
+    "model": 2026,
+    "category": "mens-shirts",
+    "stock": 12,
+    "image": "https://cdn2.propercloth.com/pic_cs/622899_c8019a65ce7995ff35a9485a8376e08c_size6.jpg"
+  },
+  {
+    "id": 22,
+    "title": "Winter Fleece Shirt",
+    "description": "Soft fleece shirt for comfortable winter warmth",
+    "price": 340,
+    "color": "Black",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Winter",
+    "material": "Polyester Fleece",
+    "model": 2025,
+    "category": "mens-shirts",
+    "stock": 35,
+    "image": "https://www.lenonlures.com/cdn/shop/files/41k1pk2od4L.jpg?v=1746320248&width=1946"
+  },
+  {
+    "id": 23,
+    "title": "Winter Brushed Cotton Shirt",
+    "description": "Brushed cotton shirt with soft interior for winter",
+    "price": 410,
+    "color": "Wine",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Winter",
+    "material": "Brushed Cotton",
+    "model": 2025,
+    "category": "mens-shirts",
+    "stock": 22,
+    "image": "https://www.houseoffraser.co.uk/images/imgzoom/55/55858209_xxl.jpg"
+  },
+  {
+    "id": 24,
+    "title": "Winter Tweed Shirt",
+    "description": "Classic tweed shirt for sophisticated winter style",
+    "price": 580,
+    "color": "Brown Tweed",
+    "size": [
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Winter",
+    "material": "Wool Tweed",
+    "model": 2026,
+    "category": "mens-shirts",
+    "stock": 16,
+    "image": "https://i5.walmartimages.com/seo/zfhfof-Mens-Fleece-Lined-Tweed-Coats-Casual-Snap-Button-Shacket-Jackets-Winter-Thick-Thermal-Lapel-Collar-Jacket-Coat-with-Flap-Pockets_a67a5ca1-6200-4c61-b10f-b0f639d0530e.82fbcbefae141bc2c8909b22417eae1b.jpeg"
+  },
+  {
+    "id": 25,
+    "title": "Winter Insulated Shirt",
+    "description": "Insulated shirt with thermal technology for extreme cold",
+    "price": 620,
+    "color": "Forest Green",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Winter",
+    "material": "Insulated Polyester",
+    "model": 2026,
+    "category": "mens-shirts",
+    "stock": 14,
+    "image": "https://arrakoutdoor.com/media/catalog/product/cache/0be0c23ba70453d56aedac07723c9eee/w/e/web_27033-63_front.jpg"
+  }
+]

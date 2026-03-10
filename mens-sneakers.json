@@ -1,0 +1,213 @@
+[
+  {
+    "id": 1,
+    "title": "Classic Sneakers",
+    "description": "Timeless white leather sneakers perfect for casual wear",
+    "price": 450,
+    "color": "White",
+    "size": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "season": "All Season",
+    "material": "Leather Upper with Rubber Sole",
+    "model": 2025,
+    "category": "mens-sneakers",
+    "stock": 40,
+    "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/34/3886521/1.jpg?9713"
+  },
+  {
+    "id": 2,
+    "title": "Running Sneakers",
+    "description": "High-performance running sneakers with cushioned sole",
+    "price": 520,
+    "color": "Black",
+    "size": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "season": "All Season",
+    "material": "Mesh with Air Cushion",
+    "model": 2025,
+    "category": "mens-sneakers",
+    "stock": 35,
+    "image": "https://image-cdn.ubuy.com/rbx-men-s-athletic-mesh-running-sneaker/400_400_100/69570e7b26a5857ee00917cb.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Basketball Sneakers",
+    "description": "High-top basketball sneakers with ankle support",
+    "price": 680,
+    "color": "Red & Black",
+    "size": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "season": "All Season",
+    "material": "Synthetic Leather with Air Technology",
+    "model": 2025,
+    "category": "mens-sneakers",
+    "stock": 25,
+    "image": "https://www.basketballemotion.com/imagesarticulos/249806/grandes/zapatillas-nike-giannis-immortality-4-nino-black-team-red-university-red-0.webp"
+  },
+  {
+    "id": 4,
+    "title": "Canvas Sneakers",
+    "description": "Classic canvas sneakers with vintage style",
+    "price": 280,
+    "color": "Navy Blue",
+    "size": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "season": "All Season",
+    "material": "Canvas with Rubber Sole",
+    "model": 2025,
+    "category": "mens-sneakers",
+    "stock": 50,
+    "image": "https://nothingnew.com/cdn/shop/products/1024x1024-NothingNew-LowTop-Navy-031122-3.4_1024x1024.jpg?v=1647970905"
+  },
+  {
+    "id": 5,
+    "title": "Skateboard Sneakers",
+    "description": "Durable skateboard sneakers with grip sole",
+    "price": 380,
+    "color": "Gray",
+    "size": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "season": "All Season",
+    "material": "Suede with Vulcanized Sole",
+    "model": 2025,
+    "category": "mens-sneakers",
+    "stock": 30,
+    "image": "https://img.lazcdn.com/g/p/a90d5644d60c2f6b107dd51706c387b7.jpg_720x720q80.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Training Sneakers",
+    "description": "Cross-training sneakers for gym and fitness",
+    "price": 420,
+    "color": "Blue & White",
+    "size": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "season": "All Season",
+    "material": "Synthetic with Breathable Mesh",
+    "model": 2025,
+    "category": "mens-sneakers",
+    "stock": 38,
+    "image": "https://images.footballfanatics.com/north-carolina-tar-heels/mens-jordan-brand-carolina-blue/white-north-carolina-tar-heels-alpha-360-training-shoes_pi3517000_altimages_ff_3517877-56687f61685ac65d3867alt1_full.jpg?_hv=2&w=1018"
+  },
+  {
+    "id": 7,
+    "title": "Retro Sneakers",
+    "description": "Vintage-inspired retro sneakers with classic design",
+    "price": 480,
+    "color": "Green",
+    "size": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "season": "All Season",
+    "material": "Leather and Suede Mix",
+    "model": 2026,
+    "category": "mens-sneakers",
+    "stock": 28,
+    "image": "https://images.garmentory.com/images/8158677/xl/New-Balance-M2002RHW---Jade-Green-20221026154024.jpg?1666798828"
+  },
+  {
+    "id": 8,
+    "title": "Slip-On Sneakers",
+    "description": "Easy slip-on sneakers without laces",
+    "price": 320,
+    "color": "Black",
+    "size": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "season": "All Season",
+    "material": "Canvas with Elastic Panels",
+    "model": 2025,
+    "category": "mens-sneakers",
+    "stock": 45,
+    "image": "https://m.media-amazon.com/images/I/71k9Lbpfh-L._AC_UY900_.jpg"
+  },
+  {
+    "id": 9,
+    "title": "High-Top Sneakers",
+    "description": "Stylish high-top sneakers with premium leather",
+    "price": 550,
+    "color": "Brown",
+    "size": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "season": "All Season",
+    "material": "Premium Leather",
+    "model": 2026,
+    "category": "mens-sneakers",
+    "stock": 22,
+    "image": "https://www.tamsshoemaker.com/cdn/shop/files/2_copy.jpg?v=1743720872&width=2048"
+  },
+  {
+    "id": 10,
+    "title": "Casual Sneakers",
+    "description": "Comfortable casual sneakers for everyday wear",
+    "price": 350,
+    "color": "Beige",
+    "size": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "season": "All Season",
+    "material": "Synthetic Leather with Foam Sole",
+    "model": 2025,
+    "category": "mens-sneakers",
+    "stock": 42,
+    "image": "https://www.piniparma.com/cdn/shop/files/beige-suede-sneakers-2.webp?v=1735225176&width=1000"
+  }
+]

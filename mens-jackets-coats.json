@@ -1,0 +1,379 @@
+[
+  {
+    "id": 1,
+    "title": "Casual Denim Jacket",
+    "description": "Classic denim jacket, perfect for casual wear",
+    "price": 450,
+    "color": "Blue",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "100% Denim",
+    "model": 2025,
+    "category": "mens-jackets-coats",
+    "stock": 25,
+    "image": "https://i5.walmartimages.com/seo/Zpanxa-Jean-Jackets-for-Men-Fall-Winter-Fashion-Casual-Denim-Jacket-Lightweight-Outdoor-Single-Breasted-Coat-Outwear-Dark-Blue-4XL_458b1e13-7cb9-4853-a2b9-d37fd94e1575.8cd08e473cccef0afda639c9946f8aa9.jpeg"
+  },
+  {
+    "id": 2,
+    "title": "Leather Jacket",
+    "description": "Premium leather jacket with zipper closure",
+    "price": 850,
+    "color": "Black",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "season": "All Season",
+    "material": "Genuine Leather",
+    "model": 2025,
+    "category": "mens-jackets-coats",
+    "stock": 15,
+    "image": "https://www.westernleathergoods.com/cdn/shop/files/black_leather_jacket_biker_jpeg_800x.jpg?v=1721123298"
+  },
+  {
+    "id": 3,
+    "title": "Bomber Jacket",
+    "description": "Military style bomber jacket with ribbed cuffs",
+    "price": 380,
+    "color": "Green",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Spring/Fall",
+    "material": "Polyester",
+    "model": 2025,
+    "category": "mens-jackets-coats",
+    "stock": 30,
+    "image": "https://spadaclothing.com/cdn/shop/files/green-airforce-1-spada-jacket-1-min.jpg?v=1736176333"
+  },
+  {
+    "id": 4,
+    "title": "Windbreaker Jacket",
+    "description": "Lightweight windbreaker with hood",
+    "price": 320,
+    "color": "Navy",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Spring/Summer",
+    "material": "Nylon",
+    "model": 2025,
+    "category": "mens-jackets-coats",
+    "stock": 35,
+    "image": "https://ofiveegypt.com/cdn/shop/files/np-79941-polo-ralph-lauren-710548506001-windbreaker-mens-navy--01.jpg?v=1771285616&width=1920"
+  },
+  {
+    "id": 5,
+    "title": "Track Jacket",
+    "description": "Athletic track jacket with full zip",
+    "price": 280,
+    "color": "Gray",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Polyester Blend",
+    "model": 2025,
+    "category": "mens-jackets-coats",
+    "stock": 40,
+    "image": "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/F02290s5.jpg?im=Resize,width=750"
+  },
+  {
+    "id": 6,
+    "title": "Varsity Jacket",
+    "description": "Classic varsity jacket with contrast sleeves",
+    "price": 420,
+    "color": "Black & White",
+    "size": [
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Fall/Winter",
+    "material": "Wool & Leather",
+    "model": 2026,
+    "category": "mens-jackets-coats",
+    "stock": 20,
+    "image": "https://cdn-images.farfetch-contents.com/25/47/80/94/25478094_56790010_1000.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Fleece Jacket",
+    "description": "Warm fleece jacket perfect for outdoor activities",
+    "price": 350,
+    "color": "Burgundy",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "season": "Fall/Winter",
+    "material": "Polar Fleece",
+    "model": 2025,
+    "category": "mens-jackets-coats",
+    "stock": 28,
+    "image": "https://www.uniformitylafayette.com/cdn/shop/files/59204_BUR_535x.jpg?v=1705005119"
+  },
+  {
+    "id": 8,
+    "title": "Puffer Jacket",
+    "description": "Lightweight puffer jacket with down filling",
+    "price": 480,
+    "color": "Orange",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Winter",
+    "material": "Nylon with Down",
+    "model": 2025,
+    "category": "mens-jackets-coats",
+    "stock": 22,
+    "image": "https://cdn.onbuy.com/product/9b5e058c3e3946b88841180daf820dd8/990-990/pb9pjx9.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Corduroy Jacket",
+    "description": "Vintage style corduroy jacket with button closure",
+    "price": 390,
+    "color": "Brown",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Fall/Winter",
+    "material": "Cotton Corduroy",
+    "model": 2025,
+    "category": "mens-jackets-coats",
+    "stock": 26,
+    "image": "https://lsco.scene7.com/is/image/lsco/723340709-front-pdp-ld?fmt=jpeg&qlt=70&resMode=sharp2&fit=crop,1&op_usm=0.6,0.6,8&wid=2000&hei=2500"
+  },
+  {
+    "id": 10,
+    "title": "Rain Jacket",
+    "description": "Waterproof rain jacket with sealed seams",
+    "price": 340,
+    "color": "Yellow",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "All Season",
+    "material": "Waterproof Nylon",
+    "model": 2025,
+    "category": "mens-jackets-coats",
+    "stock": 32,
+    "image": "https://www.trotters.co.uk/cdn/shop/files/petit-breton-rainmac-rain-mac-in-yellow-31355821391933_1024x1024.jpg?v=1736783406"
+  },
+  {
+    "id": 11,
+    "title": "Wool Coat Jacket",
+    "description": "Elegant wool coat for formal occasions",
+    "price": 750,
+    "color": "Charcoal",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Winter",
+    "material": "100% Wool",
+    "model": 2025,
+    "category": "mens-jackets-coats",
+    "stock": 18,
+    "image": "https://images.asket.com/pim-images/1755180470-asket_wct-ma-clm_thumbnail.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Trench Coat Jacket",
+    "description": "Classic trench coat with belt and double-breasted design",
+    "price": 680,
+    "color": "Beige",
+    "size": [
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Spring/Fall",
+    "material": "Cotton Gabardine",
+    "model": 2025,
+    "category": "mens-jackets-coats",
+    "stock": 20,
+    "image": "https://www.air-force.com/media/catalog/product/cache/d9277b8b242b9a5c61ea8177911038ed/f/r/frm0522_654_f_1_grey.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Peacoat Jacket",
+    "description": "Double-breasted peacoat with anchor buttons",
+    "price": 620,
+    "color": "Navy Blue",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Winter",
+    "material": "Wool Blend",
+    "model": 2025,
+    "category": "mens-jackets-coats",
+    "stock": 24,
+    "image": "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/V34952s.jpg?im=Resize,width=750"
+  },
+  {
+    "id": 14,
+    "title": "Overcoat Jacket",
+    "description": "Long formal overcoat for business wear",
+    "price": 820,
+    "color": "Black",
+    "size": [
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Winter",
+    "material": "Cashmere Blend",
+    "model": 2026,
+    "category": "mens-jackets-coats",
+    "stock": 15,
+    "image": "https://m.media-amazon.com/images/I/61bqjv58sVL._AC_UY1000_.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Duffle Coat Jacket",
+    "description": "Traditional duffle coat with toggle closures",
+    "price": 580,
+    "color": "Camel",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Winter",
+    "material": "Wool",
+    "model": 2025,
+    "category": "mens-jackets-coats",
+    "stock": 22,
+    "image": "https://tweed.se/cdn/shop/files/GloverallMontyDuffleCoatCamel4.jpg?v=1718885695&width=1500"
+  },
+  {
+    "id": 16,
+    "title": "Parka Coat Jacket",
+    "description": "Heavy-duty parka with fur-lined hood",
+    "price": 720,
+    "color": "Olive Green",
+    "size": [
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Winter",
+    "material": "Cotton with Fur Lining",
+    "model": 2026,
+    "category": "mens-jackets-coats",
+    "stock": 16,
+    "image": "https://i.ebayimg.com/images/g/75kAAOSwMWpbt2n-/s-l1200.jpg"
+  },
+  {
+    "id": 17,
+    "title": "Chesterfield Coat Jacket",
+    "description": "Classic Chesterfield coat with velvet collar",
+    "price": 890,
+    "color": "Gray",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Winter",
+    "material": "Wool with Velvet",
+    "model": 2026,
+    "category": "mens-jackets-coats",
+    "stock": 12,
+    "image": "https://dqp736wsu6w3m.cloudfront.net/s3bucket/og/feed/img/man_coat/71732/without_model_small.png"
+  },
+  {
+    "id": 18,
+    "title": "Car Coat Jacket",
+    "description": "Mid-length car coat perfect for driving",
+    "price": 650,
+    "color": "Brown",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Fall/Winter",
+    "material": "Wool Blend",
+    "model": 2025,
+    "category": "mens-jackets-coats",
+    "stock": 19,
+    "image": "https://www.mackintosh.com/cdn/shop/files/MENS-DUNKELD-GM-1140F-WO-CAMEL-MO9295V1-FEATURE.jpg?v=1761647568"
+  },
+  {
+    "id": 19,
+    "title": "Topcoat Jacket",
+    "description": "Lightweight topcoat for layering",
+    "price": 520,
+    "color": "Dark Blue",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "season": "Spring/Fall",
+    "material": "Cotton Blend",
+    "model": 2025,
+    "category": "mens-jackets-coats",
+    "stock": 26,
+    "image": "https://dqp736wsu6w3m.cloudfront.net/s3bucket/og/feed/img/man_coat/730847/without_model_small.png"
+  },
+  {
+    "id": 20,
+    "title": "Greatcoat Jacket",
+    "description": "Military-inspired greatcoat with double buttons",
+    "price": 780,
+    "color": "Burgundy",
+    "size": [
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "season": "Winter",
+    "material": "Heavy Wool",
+    "model": 2026,
+    "category": "mens-jackets-coats",
+    "stock": 14,
+    "image": "https://i.etsystatic.com/36785576/r/il/eb32a9/4185672560/il_570xN.4185672560_ingl.jpg"
+  }
+]
