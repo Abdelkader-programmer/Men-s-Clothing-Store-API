@@ -1,7 +1,7 @@
 # 👔 واجهة برمجة تطبيقات متجر الشهاوي للملابس الرجالي (Men's Clothing Store API)
 
 <p align="center">
-  <img src="./imgs/Logo.png" alt="API Brand" width="400"/>
+  <img src="https://raw.githubusercontent.com/Abdelkader-programmer/Men-s-Clothing-Store-API/main/imgs/Logo.png" alt="API Brand" width="400"/>
 </p>
 
 واجهة برمجة تطبيقات (API) قوية وعالية الأداء مبنية باستخدام Node.js و Express.js. توفر هذه الخدمة بيانات تفصيلية لأكثر من 245 منتج من الملابس الرجالي والمعدات الرياضية من مختلف الفئات، مع ميزات متقدمة للبحث والفلترة وتقسيم الصفحات. تم تصميم الـ API لتكون سريعة، فعالة، وسهلة الاستخدام للمطورين.
